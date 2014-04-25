@@ -10,6 +10,8 @@
 		D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410018F68B46007A6830 /* KKDateFormatter.m */; };
 		D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410118F68B46007A6830 /* KKHebrewCalendar.m */; };
 		D720410818F69CBF007A6830 /* Sfirat.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410718F69CBF007A6830 /* Sfirat.m */; };
+		D79B0A5F190A6CB200241ACE /* CounterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0A5E190A6CB200241ACE /* CounterModel.m */; };
+		D79B0A62190A70A800241ACE /* CounterStoreGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0A61190A70A800241ACE /* CounterStoreGenerator.m */; };
 		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
 		D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94018F1F41800C4A965 /* CoreGraphics.framework */; };
 		D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
@@ -51,6 +53,10 @@
 		D79B0A55190A540000241ACE /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
 		D79B0A58190A545C00241ACE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D79B0A5D190A6CB200241ACE /* CounterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterModel.h; sourceTree = "<group>"; };
+		D79B0A5E190A6CB200241ACE /* CounterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterModel.m; sourceTree = "<group>"; };
+		D79B0A60190A70A800241ACE /* CounterStoreGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterStoreGenerator.h; sourceTree = "<group>"; };
+		D79B0A61190A70A800241ACE /* CounterStoreGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterStoreGenerator.m; sourceTree = "<group>"; };
 		D79FA93B18F1F41800C4A965 /* omer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79FA93E18F1F41800C4A965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D79FA94018F1F41800C4A965 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +130,24 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		D79B0A5B190A6C1D00241ACE /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		D79B0A5C190A6C7500241ACE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D79B0A5D190A6CB200241ACE /* CounterModel.h */,
+				D79B0A5E190A6CB200241ACE /* CounterModel.m */,
+				D79B0A60190A70A800241ACE /* CounterStoreGenerator.h */,
+				D79B0A61190A70A800241ACE /* CounterStoreGenerator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D79FA93218F1F41800C4A965 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +184,8 @@
 		D79FA94418F1F41800C4A965 /* omer */ = {
 			isa = PBXGroup;
 			children = (
+				D79B0A5C190A6C7500241ACE /* Model */,
+				D79B0A5B190A6C1D00241ACE /* resources */,
 				D72DDE6218F9EC820034B0C8 /* CarmelitRegular.ttf */,
 				D720410518F69C88007A6830 /* Helpers */,
 				D72040FE18F68B04007A6830 /* lib */,
@@ -315,8 +341,10 @@
 				D79FA94B18F1F41800C4A965 /* main.m in Sources */,
 				D79FA97518F1F4E300C4A965 /* UserLocationManager.m in Sources */,
 				D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */,
+				D79B0A5F190A6CB200241ACE /* CounterModel.m in Sources */,
 				D720410818F69CBF007A6830 /* Sfirat.m in Sources */,
 				D7BE386D190311690090DE8F /* OmerData.m in Sources */,
+				D79B0A62190A70A800241ACE /* CounterStoreGenerator.m in Sources */,
 				D79FA97B18F1F52300C4A965 /* Sunset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

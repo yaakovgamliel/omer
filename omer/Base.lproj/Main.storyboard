@@ -20,11 +20,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qac-Nu-9Me">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qac-Nu-9Me">
                                 <rect key="frame" x="36" y="46" width="247" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.6154151815064115" blue="0.16769610910206556" alpha="0.44" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.6154151815064115" blue="0.16769610910206556" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfB-9W-L7f">
@@ -34,17 +34,38 @@
                                 <color key="textColor" red="0.95294123888015747" green="0.64705884456634521" blue="0.20784315466880798" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbu-yh-UDz">
-                                <rect key="frame" x="135" y="443" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dbu-yh-UDz">
+                                <rect key="frame" x="134" y="443" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="AcO-zc-PFc"/>
+                                    <constraint firstAttribute="height" constant="50" id="J3I-tw-vu1"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="84"/>
                                 <state key="normal" image="add-button-avenir">
                                     <color key="titleColor" red="1" green="0.6154151815064115" blue="0.16769610910206556" alpha="0.44" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="countButtonTouched:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ZC8-xq-e0U"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Made with ♡ by G2think" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4S6-EB-Dqv">
+                                <rect key="frame" x="72" y="547" width="174" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="11"/>
+                                <color key="textColor" red="0.92549026012420654" green="0.57647061347961426" blue="0.21568629145622253" alpha="0.41999999999999998" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.83439829892448514" blue="0.036370119813530111" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="dbu-yh-UDz" secondAttribute="bottom" constant="75" id="KY1-CR-Aog"/>
+                            <constraint firstItem="4S6-EB-Dqv" firstAttribute="top" secondItem="dbu-yh-UDz" secondAttribute="bottom" constant="54" id="OLO-IX-myv"/>
+                            <constraint firstItem="dbu-yh-UDz" firstAttribute="centerX" secondItem="Qac-Nu-9Me" secondAttribute="centerX" id="QPx-ty-npG"/>
+                            <constraint firstItem="dbu-yh-UDz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="134" id="Vpx-vV-VMM"/>
+                            <constraint firstItem="dbu-yh-UDz" firstAttribute="centerX" secondItem="4S6-EB-Dqv" secondAttribute="centerX" id="eoR-8k-Ya0"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="counterLabel" destination="ZfB-9W-L7f" id="wSY-dG-u9w"/>

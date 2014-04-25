@@ -22,6 +22,9 @@
                                                fromDate:[self sfiratStartDate]
                                                  toDate:today
                                                          options:0];
+    
+    NSLog(@"hoour %d",components.hour);
+    
     return components.day;
 
 }

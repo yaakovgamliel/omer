@@ -15,6 +15,7 @@
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *testlabel;
 @property (strong, nonatomic) IBOutlet UILabel *counterLabel;
+@property (strong, nonatomic) Sfirat *sfira;
 
 @end
 
@@ -34,14 +35,72 @@
     
     self.testlabel.text = [forma stringFromDate:today];
     
+    self.sfira = [Sfirat new];
     
-    Sfirat *pepe = [Sfirat new];
-    [pepe sfiraTime];
-    
-    NSLog(@"today is %d",[pepe sfiraTime]);
-    
-    self.counterLabel.text = [NSString stringWithFormat:@"%d",[pepe sfiraTime]];
     
 }
 
+
+- (void)viewWillAppear:(BOOL)animated {
+    if ([self canUpdate]) {
+        
+        if ([self.sfira sfiraTime] < 50) {
+            NSInteger todayCount = [self.sfira sfiraTime] + 1;
+            self.counterLabel.text = [NSString stringWithFormat:@"%d",todayCount];
+            
+            [self setupDateLabelWithDate:[NSDate dateWithTimeIntervalSinceNow:(60*60*5)]];
+
+        }
+        
+    } else if ([self.sfira sfiraTime] < 50){
+        self.counterLabel.text = [NSString stringWithFormat:@"%d",[self.sfira sfiraTime]];
+    } else {
+        self.counterLabel.text = @"";
+        
+        [self setupDateLabelWithDate:[NSDate date]];
+    }
+}
+
+#pragma mark - Helper methods
+
+- (void)setupDateLabelWithDate:(NSDate*)date {
+    
+    NSDate *today = date;
+    KKDateFormatter *forma = [[KKDateFormatter alloc]init];
+    [forma setDateStyle:KKDateFormatterFullHebrewStyle];
+    [forma stringFromDate:today];
+    NSLog(@"%@",[forma stringFromDate:today]);
+    
+    self.testlabel.text = [forma stringFromDate:today];
+    
+}
+- (BOOL)canUpdate {
+    NSDate *today = [NSDate date];
+    NSCalendar *gregorian = [[NSCalendar alloc]
+                              initWithCalendarIdentifier:NSGregorianCalendar];
+    NSDateComponents *components =
+    [gregorian components:(NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit) fromDate:today];
+    
+    NSInteger hour = 0;
+    if ([components hour] == 0) {
+        hour = 24;
+    } else {
+        hour = [components hour];
+    }
+    
+    NSInteger minute = [components minute];
+    
+    if (hour >= 19 && hour < 24 ) {
+        if (hour > 19) {
+            return YES;
+        } else if (minute > 20) {
+            return YES;
+        } else {
+            return NO;
+        }
+    } else {
+        return NO;
+    }
+    
+}
 @end
