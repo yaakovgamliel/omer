@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410018F68B46007A6830 /* KKDateFormatter.m */; };
+		D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410118F68B46007A6830 /* KKHebrewCalendar.m */; };
+		D720410818F69CBF007A6830 /* Sfirat.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410718F69CBF007A6830 /* Sfirat.m */; };
+		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
+		D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94018F1F41800C4A965 /* CoreGraphics.framework */; };
+		D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
+		D79FA94918F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA94718F1F41800C4A965 /* InfoPlist.strings */; };
+		D79FA94B18F1F41800C4A965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94A18F1F41800C4A965 /* main.m */; };
+		D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94E18F1F41800C4A965 /* AppDelegate.m */; };
+		D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95018F1F41800C4A965 /* Main.storyboard */; };
+		D79FA95518F1F41800C4A965 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA95418F1F41800C4A965 /* ViewController.m */; };
+		D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95618F1F41800C4A965 /* Images.xcassets */; };
+		D79FA95E18F1F41800C4A965 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA95D18F1F41800C4A965 /* XCTest.framework */; };
+		D79FA95F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
+		D79FA96018F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
+		D79FA96818F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA96618F1F41800C4A965 /* InfoPlist.strings */; };
+		D79FA96A18F1F41800C4A965 /* omerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA96918F1F41800C4A965 /* omerTests.m */; };
+		D79FA97518F1F4E300C4A965 /* UserLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA97418F1F4E300C4A965 /* UserLocationManager.m */; };
+		D79FA97818F1F4FB00C4A965 /* OmerAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA97718F1F4FB00C4A965 /* OmerAPIClient.m */; };
+		D79FA97B18F1F52300C4A965 /* Sunset.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA97A18F1F52300C4A965 /* Sunset.m */; };
+		D7BE386D190311690090DE8F /* OmerData.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BE386C190311690090DE8F /* OmerData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D79FA96118F1F41800C4A965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79FA93A18F1F41800C4A965;
+			remoteInfo = omer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D72040FF18F68B46007A6830 /* KKHebrewCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHebrewCalendar.h; sourceTree = "<group>"; };
+		D720410018F68B46007A6830 /* KKDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDateFormatter.m; sourceTree = "<group>"; };
+		D720410118F68B46007A6830 /* KKHebrewCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHebrewCalendar.m; sourceTree = "<group>"; };
+		D720410218F68B46007A6830 /* KKDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDateFormatter.h; sourceTree = "<group>"; };
+		D720410618F69CBF007A6830 /* Sfirat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sfirat.h; sourceTree = "<group>"; };
+		D720410718F69CBF007A6830 /* Sfirat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sfirat.m; sourceTree = "<group>"; };
+		D72DDE6218F9EC820034B0C8 /* CarmelitRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarmelitRegular.ttf; sourceTree = "<group>"; };
+		D79B0A55190A540000241ACE /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		D79B0A58190A545C00241ACE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D79FA93B18F1F41800C4A965 /* omer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FA93E18F1F41800C4A965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D79FA94018F1F41800C4A965 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D79FA94218F1F41800C4A965 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D79FA94618F1F41800C4A965 /* omer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omer-Info.plist"; sourceTree = "<group>"; };
+		D79FA94818F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D79FA94A18F1F41800C4A965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D79FA94C18F1F41800C4A965 /* omer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "omer-Prefix.pch"; sourceTree = "<group>"; };
+		D79FA94D18F1F41800C4A965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D79FA94E18F1F41800C4A965 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D79FA95118F1F41800C4A965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D79FA95318F1F41800C4A965 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D79FA95418F1F41800C4A965 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D79FA95618F1F41800C4A965 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D79FA95C18F1F41800C4A965 /* omerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79FA95D18F1F41800C4A965 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D79FA96518F1F41800C4A965 /* omerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omerTests-Info.plist"; sourceTree = "<group>"; };
+		D79FA96718F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D79FA96918F1F41800C4A965 /* omerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omerTests.m; sourceTree = "<group>"; };
+		D79FA97318F1F4E300C4A965 /* UserLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLocationManager.h; sourceTree = "<group>"; };
+		D79FA97418F1F4E300C4A965 /* UserLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLocationManager.m; sourceTree = "<group>"; };
+		D79FA97618F1F4FB00C4A965 /* OmerAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmerAPIClient.h; sourceTree = "<group>"; };
+		D79FA97718F1F4FB00C4A965 /* OmerAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmerAPIClient.m; sourceTree = "<group>"; };
+		D79FA97918F1F52300C4A965 /* Sunset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sunset.h; sourceTree = "<group>"; };
+		D79FA97A18F1F52300C4A965 /* Sunset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sunset.m; sourceTree = "<group>"; };
+		D7BE386B190311690090DE8F /* OmerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmerData.h; sourceTree = "<group>"; };
+		D7BE386C190311690090DE8F /* OmerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OmerData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79FA93818F1F41800C4A965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */,
+				D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */,
+				D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FA95918F1F41800C4A965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FA95E18F1F41800C4A965 /* XCTest.framework in Frameworks */,
+				D79FA96018F1F41800C4A965 /* UIKit.framework in Frameworks */,
+				D79FA95F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72040FE18F68B04007A6830 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D72040FF18F68B46007A6830 /* KKHebrewCalendar.h */,
+				D720410218F68B46007A6830 /* KKDateFormatter.h */,
+				D720410018F68B46007A6830 /* KKDateFormatter.m */,
+				D720410118F68B46007A6830 /* KKHebrewCalendar.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		D720410518F69C88007A6830 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D720410618F69CBF007A6830 /* Sfirat.h */,
+				D720410718F69CBF007A6830 /* Sfirat.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D79FA93218F1F41800C4A965 = {
+			isa = PBXGroup;
+			children = (
+				D79B0A58190A545C00241ACE /* Icon-Small@2x.png */,
+				D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */,
+				D79B0A55190A540000241ACE /* Icon-60@2x.png */,
+				D79FA94418F1F41800C4A965 /* omer */,
+				D79FA96318F1F41800C4A965 /* omerTests */,
+				D79FA93D18F1F41800C4A965 /* Frameworks */,
+				D79FA93C18F1F41800C4A965 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79FA93C18F1F41800C4A965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79FA93B18F1F41800C4A965 /* omer.app */,
+				D79FA95C18F1F41800C4A965 /* omerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79FA93D18F1F41800C4A965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79FA93E18F1F41800C4A965 /* Foundation.framework */,
+				D79FA94018F1F41800C4A965 /* CoreGraphics.framework */,
+				D79FA94218F1F41800C4A965 /* UIKit.framework */,
+				D79FA95D18F1F41800C4A965 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79FA94418F1F41800C4A965 /* omer */ = {
+			isa = PBXGroup;
+			children = (
+				D72DDE6218F9EC820034B0C8 /* CarmelitRegular.ttf */,
+				D720410518F69C88007A6830 /* Helpers */,
+				D72040FE18F68B04007A6830 /* lib */,
+				D79FA97918F1F52300C4A965 /* Sunset.h */,
+				D79FA97A18F1F52300C4A965 /* Sunset.m */,
+				D7BE386B190311690090DE8F /* OmerData.h */,
+				D7BE386C190311690090DE8F /* OmerData.m */,
+				D79FA97618F1F4FB00C4A965 /* OmerAPIClient.h */,
+				D79FA97718F1F4FB00C4A965 /* OmerAPIClient.m */,
+				D79FA97318F1F4E300C4A965 /* UserLocationManager.h */,
+				D79FA97418F1F4E300C4A965 /* UserLocationManager.m */,
+				D79FA94D18F1F41800C4A965 /* AppDelegate.h */,
+				D79FA94E18F1F41800C4A965 /* AppDelegate.m */,
+				D79FA95018F1F41800C4A965 /* Main.storyboard */,
+				D79FA95318F1F41800C4A965 /* ViewController.h */,
+				D79FA95418F1F41800C4A965 /* ViewController.m */,
+				D79FA95618F1F41800C4A965 /* Images.xcassets */,
+				D79FA94518F1F41800C4A965 /* Supporting Files */,
+			);
+			path = omer;
+			sourceTree = "<group>";
+		};
+		D79FA94518F1F41800C4A965 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79FA94618F1F41800C4A965 /* omer-Info.plist */,
+				D79FA94718F1F41800C4A965 /* InfoPlist.strings */,
+				D79FA94A18F1F41800C4A965 /* main.m */,
+				D79FA94C18F1F41800C4A965 /* omer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D79FA96318F1F41800C4A965 /* omerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D79FA96918F1F41800C4A965 /* omerTests.m */,
+				D79FA96418F1F41800C4A965 /* Supporting Files */,
+			);
+			path = omerTests;
+			sourceTree = "<group>";
+		};
+		D79FA96418F1F41800C4A965 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79FA96518F1F41800C4A965 /* omerTests-Info.plist */,
+				D79FA96618F1F41800C4A965 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79FA93A18F1F41800C4A965 /* omer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FA96D18F1F41800C4A965 /* Build configuration list for PBXNativeTarget "omer" */;
+			buildPhases = (
+				D79FA93718F1F41800C4A965 /* Sources */,
+				D79FA93818F1F41800C4A965 /* Frameworks */,
+				D79FA93918F1F41800C4A965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = omer;
+			productName = omer;
+			productReference = D79FA93B18F1F41800C4A965 /* omer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79FA95B18F1F41800C4A965 /* omerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79FA97018F1F41800C4A965 /* Build configuration list for PBXNativeTarget "omerTests" */;
+			buildPhases = (
+				D79FA95818F1F41800C4A965 /* Sources */,
+				D79FA95918F1F41800C4A965 /* Frameworks */,
+				D79FA95A18F1F41800C4A965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D79FA96218F1F41800C4A965 /* PBXTargetDependency */,
+			);
+			name = omerTests;
+			productName = omerTests;
+			productReference = D79FA95C18F1F41800C4A965 /* omerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79FA93318F1F41800C4A965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yaakov Gamliel";
+				TargetAttributes = {
+					D79FA95B18F1F41800C4A965 = {
+						TestTargetID = D79FA93A18F1F41800C4A965;
+					};
+				};
+			};
+			buildConfigurationList = D79FA93618F1F41800C4A965 /* Build configuration list for PBXProject "omer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D79FA93218F1F41800C4A965;
+			productRefGroup = D79FA93C18F1F41800C4A965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79FA93A18F1F41800C4A965 /* omer */,
+				D79FA95B18F1F41800C4A965 /* omerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79FA93918F1F41800C4A965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */,
+				D79FA94918F1F41800C4A965 /* InfoPlist.strings in Resources */,
+				D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FA95A18F1F41800C4A965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FA96818F1F41800C4A965 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79FA93718F1F41800C4A965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FA95518F1F41800C4A965 /* ViewController.m in Sources */,
+				D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */,
+				D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */,
+				D79FA97818F1F4FB00C4A965 /* OmerAPIClient.m in Sources */,
+				D79FA94B18F1F41800C4A965 /* main.m in Sources */,
+				D79FA97518F1F4E300C4A965 /* UserLocationManager.m in Sources */,
+				D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */,
+				D720410818F69CBF007A6830 /* Sfirat.m in Sources */,
+				D7BE386D190311690090DE8F /* OmerData.m in Sources */,
+				D79FA97B18F1F52300C4A965 /* Sunset.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79FA95818F1F41800C4A965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79FA96A18F1F41800C4A965 /* omerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D79FA96218F1F41800C4A965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79FA93A18F1F41800C4A965 /* omer */;
+			targetProxy = D79FA96118F1F41800C4A965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D79FA94718F1F41800C4A965 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79FA94818F1F41800C4A965 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D79FA95018F1F41800C4A965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79FA95118F1F41800C4A965 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D79FA96618F1F41800C4A965 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79FA96718F1F41800C4A965 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79FA96B18F1F41800C4A965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D79FA96C18F1F41800C4A965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79FA96E18F1F41800C4A965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
+				INFOPLIST_FILE = "omer/omer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D79FA96F18F1F41800C4A965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
+				INFOPLIST_FILE = "omer/omer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D79FA97118F1F41800C4A965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/omer.app/omer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "omerTests/omerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D79FA97218F1F41800C4A965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/omer.app/omer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
+				INFOPLIST_FILE = "omerTests/omerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79FA93618F1F41800C4A965 /* Build configuration list for PBXProject "omer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FA96B18F1F41800C4A965 /* Debug */,
+				D79FA96C18F1F41800C4A965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79FA96D18F1F41800C4A965 /* Build configuration list for PBXNativeTarget "omer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FA96E18F1F41800C4A965 /* Debug */,
+				D79FA96F18F1F41800C4A965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79FA97018F1F41800C4A965 /* Build configuration list for PBXNativeTarget "omerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79FA97118F1F41800C4A965 /* Debug */,
+				D79FA97218F1F41800C4A965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79FA93318F1F41800C4A965 /* Project object */;
+}
