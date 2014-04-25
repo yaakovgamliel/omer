@@ -42,18 +42,18 @@
 
 
 - (void)viewWillAppear:(BOOL)animated {
-    if ([self canUpdate]) {
+    if ([self shouldUpdate]) {
         
         if ([self.sfira sfiraTime] < 50) {
             NSInteger todayCount = [self.sfira sfiraTime] + 1;
-            self.counterLabel.text = [NSString stringWithFormat:@"%d",todayCount];
+            self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)todayCount];
             
             [self setupDateLabelWithDate:[NSDate dateWithTimeIntervalSinceNow:(60*60*5)]];
-
+            
         }
         
     } else if ([self.sfira sfiraTime] < 50){
-        self.counterLabel.text = [NSString stringWithFormat:@"%d",[self.sfira sfiraTime]];
+        self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)[self.sfira sfiraTime]];
     } else {
         self.counterLabel.text = @"";
         
@@ -74,7 +74,7 @@
     self.testlabel.text = [forma stringFromDate:today];
     
 }
-- (BOOL)canUpdate {
+- (BOOL)shouldUpdate {
     NSDate *today = [NSDate date];
     NSCalendar *gregorian = [[NSCalendar alloc]
                               initWithCalendarIdentifier:NSGregorianCalendar];
