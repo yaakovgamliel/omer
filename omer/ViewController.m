@@ -16,49 +16,50 @@
 @property (strong, nonatomic) IBOutlet UILabel *testlabel;
 @property (strong, nonatomic) IBOutlet UILabel *counterLabel;
 @property (strong, nonatomic) Sfirat *sfira;
-
+@property (strong, nonatomic) IBOutlet UILabel *dayWeekCountLabel;
+@property (nonatomic,assign) NSInteger currentCount;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
+    
     [super viewDidLoad];
-   
-    
-    //
-    NSDate *today = [NSDate date];
-    KKDateFormatter *forma = [[KKDateFormatter alloc]init];
-    [forma setDateStyle:KKDateFormatterFullHebrewStyle];
-    [forma stringFromDate:today];
-    NSLog(@"%@",[forma stringFromDate:today]);
-    
-    self.testlabel.text = [forma stringFromDate:today];
-    
+
     self.sfira = [Sfirat new];
-    
-    
 }
 
 
 - (void)viewWillAppear:(BOOL)animated {
+    NSInteger sfiraTime = [self.sfira sfiraTime];
+
     if ([self shouldUpdate]) {
         
+        
         if ([self.sfira sfiraTime] < 50) {
-            NSInteger todayCount = [self.sfira sfiraTime] + 1;
+            NSInteger todayCount = sfiraTime + 1;
             self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)todayCount];
             
             [self setupDateLabelWithDate:[NSDate dateWithTimeIntervalSinceNow:(60*60*5)]];
             
+            self.currentCount = todayCount;
+            
         }
         
     } else if ([self.sfira sfiraTime] < 50){
-        self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)[self.sfira sfiraTime]];
+        self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)sfiraTime];
+        
+        self.currentCount = sfiraTime;
+
+        
     } else {
         self.counterLabel.text = @"";
         
         [self setupDateLabelWithDate:[NSDate date]];
+        self.currentCount = 0;
     }
+    
+    [self setupDayWeekLabel];
 }
 
 #pragma mark - Helper methods
@@ -66,12 +67,27 @@
 - (void)setupDateLabelWithDate:(NSDate*)date {
     
     NSDate *today = date;
+    
     KKDateFormatter *forma = [[KKDateFormatter alloc]init];
     [forma setDateStyle:KKDateFormatterFullHebrewStyle];
     [forma stringFromDate:today];
-    NSLog(@"%@",[forma stringFromDate:today]);
     
     self.testlabel.text = [forma stringFromDate:today];
+    
+}
+
+- (void)setupDayWeekLabel {
+    if (self.currentCount == 0) {
+        return;
+    }
+    
+    NSInteger countDay = self.currentCount;
+    NSInteger weekDay = countDay / 7;
+    NSInteger weekDayCount = countDay % 7;
+    
+    NSString *weekDayString = [NSString stringWithFormat:@"%d %@ %d %@",weekDay, NSLocalizedString(@"w", nil),weekDayCount,NSLocalizedString(@"d", nil)];
+    
+    self.dayWeekCountLabel.text  = weekDayString;
     
 }
 - (BOOL)shouldUpdate {

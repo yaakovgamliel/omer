@@ -64,7 +64,7 @@
         
         NSDateComponents *comps = [[NSDateComponents alloc] init];
         [comps setHour:19];
-        [comps setMinute:20];
+        [comps setMinute:19];
         
         NSCalendar *hebrewCalendar = [[NSCalendar alloc]
                                       initWithCalendarIdentifier:NSGregorianCalendar];
