@@ -484,6 +484,7 @@
 				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
 				INFOPLIST_FILE = "omer/omer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24389EA9-40BA-416A-97E5-A0429EB168FD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -498,6 +499,7 @@
 				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
 				INFOPLIST_FILE = "omer/omer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "24389EA9-40BA-416A-97E5-A0429EB168FD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

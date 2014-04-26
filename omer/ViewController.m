@@ -48,13 +48,14 @@
         
     } else if ([self.sfira sfiraTime] < 50){
         self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)sfiraTime];
-        
+        [self setupDateLabelWithDate:[NSDate date]];
+
         self.currentCount = sfiraTime;
 
         
     } else {
         self.counterLabel.text = @"";
-        
+        [self setupDateLabelWithDate:[NSDate date]];        
         [self setupDateLabelWithDate:[NSDate date]];
         self.currentCount = 0;
     }
