@@ -23,7 +23,7 @@
                                                  toDate:today
                                                          options:0];
     
-    NSLog(@"hoour %d",components.hour);
+//    NSLog(@"hoour %d",components.hour);
     
     return components.day;
 
