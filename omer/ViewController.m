@@ -119,6 +119,8 @@
             
             self.currentCount = todayCount;
             
+            [self setupDayWeekLabel];
+            
         }
         
     } else if ([self.sfira sfiraTime] < 50){
@@ -127,9 +129,13 @@
         
         self.currentCount = sfiraTime;
         
+        [self setupDayWeekLabel];
+
+        
         
     } else {
         self.counterLabel.text = @"";
+        self.dayWeekCountLabel.text  = @"";
         [self setupDateLabelWithDate:[NSDate date]];
         self.currentCount = 0;
     }
