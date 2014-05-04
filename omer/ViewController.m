@@ -13,11 +13,13 @@
 
 
 @interface ViewController ()
+
 @property (strong, nonatomic) IBOutlet UILabel *testlabel;
 @property (strong, nonatomic) IBOutlet UILabel *counterLabel;
-@property (strong, nonatomic) Sfirat *sfira;
 @property (strong, nonatomic) IBOutlet UILabel *dayWeekCountLabel;
 @property (nonatomic,assign) NSInteger currentCount;
+@property (strong, nonatomic) Sfirat *sfira;
+
 @end
 
 @implementation ViewController
