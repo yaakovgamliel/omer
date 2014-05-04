@@ -10,8 +10,7 @@
 		D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410018F68B46007A6830 /* KKDateFormatter.m */; };
 		D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410118F68B46007A6830 /* KKHebrewCalendar.m */; };
 		D720410818F69CBF007A6830 /* Sfirat.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410718F69CBF007A6830 /* Sfirat.m */; };
-		D79B0A5F190A6CB200241ACE /* CounterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0A5E190A6CB200241ACE /* CounterModel.m */; };
-		D79B0A62190A70A800241ACE /* CounterStoreGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D79B0A61190A70A800241ACE /* CounterStoreGenerator.m */; };
+		D78CC7B91916DA670050DFE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* ViewController.m */; };
 		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
 		D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94018F1F41800C4A965 /* CoreGraphics.framework */; };
 		D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
@@ -19,14 +18,12 @@
 		D79FA94B18F1F41800C4A965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94A18F1F41800C4A965 /* main.m */; };
 		D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94E18F1F41800C4A965 /* AppDelegate.m */; };
 		D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95018F1F41800C4A965 /* Main.storyboard */; };
-		D79FA95518F1F41800C4A965 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA95418F1F41800C4A965 /* ViewController.m */; };
 		D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95618F1F41800C4A965 /* Images.xcassets */; };
 		D79FA95E18F1F41800C4A965 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA95D18F1F41800C4A965 /* XCTest.framework */; };
 		D79FA95F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
 		D79FA96018F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
 		D79FA96818F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA96618F1F41800C4A965 /* InfoPlist.strings */; };
 		D79FA96A18F1F41800C4A965 /* omerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA96918F1F41800C4A965 /* omerTests.m */; };
-		D7A6608A1910093C003060F5 /* CounterStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A660891910093C003060F5 /* CounterStoreManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,14 +43,11 @@
 		D720410218F68B46007A6830 /* KKDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDateFormatter.h; sourceTree = "<group>"; };
 		D720410618F69CBF007A6830 /* Sfirat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sfirat.h; sourceTree = "<group>"; };
 		D720410718F69CBF007A6830 /* Sfirat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sfirat.m; sourceTree = "<group>"; };
-		D72DDE6218F9EC820034B0C8 /* CarmelitRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarmelitRegular.ttf; sourceTree = "<group>"; };
+		D78CC7B71916DA670050DFE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D78CC7B81916DA670050DFE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D79B0A55190A540000241ACE /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
 		D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
 		D79B0A58190A545C00241ACE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		D79B0A5D190A6CB200241ACE /* CounterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterModel.h; sourceTree = "<group>"; };
-		D79B0A5E190A6CB200241ACE /* CounterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterModel.m; sourceTree = "<group>"; };
-		D79B0A60190A70A800241ACE /* CounterStoreGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterStoreGenerator.h; sourceTree = "<group>"; };
-		D79B0A61190A70A800241ACE /* CounterStoreGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterStoreGenerator.m; sourceTree = "<group>"; };
 		D79FA93B18F1F41800C4A965 /* omer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79FA93E18F1F41800C4A965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D79FA94018F1F41800C4A965 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,16 +59,12 @@
 		D79FA94D18F1F41800C4A965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D79FA94E18F1F41800C4A965 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D79FA95118F1F41800C4A965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D79FA95318F1F41800C4A965 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D79FA95418F1F41800C4A965 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D79FA95618F1F41800C4A965 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D79FA95C18F1F41800C4A965 /* omerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79FA95D18F1F41800C4A965 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D79FA96518F1F41800C4A965 /* omerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omerTests-Info.plist"; sourceTree = "<group>"; };
 		D79FA96718F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79FA96918F1F41800C4A965 /* omerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omerTests.m; sourceTree = "<group>"; };
-		D7A660881910093C003060F5 /* CounterStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterStoreManager.h; sourceTree = "<group>"; };
-		D7A660891910093C003060F5 /* CounterStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterStoreManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +111,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		D78CC7B61916DA120050DFE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D78CC7B71916DA670050DFE1 /* ViewController.m */,
+				D78CC7B81916DA670050DFE1 /* ViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		D79B0A5B190A6C1D00241ACE /* resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,12 +130,6 @@
 		D79B0A5C190A6C7500241ACE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D79B0A5D190A6CB200241ACE /* CounterModel.h */,
-				D79B0A5E190A6CB200241ACE /* CounterModel.m */,
-				D79B0A60190A70A800241ACE /* CounterStoreGenerator.h */,
-				D79B0A61190A70A800241ACE /* CounterStoreGenerator.m */,
-				D7A660881910093C003060F5 /* CounterStoreManager.h */,
-				D7A660891910093C003060F5 /* CounterStoreManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -177,16 +170,14 @@
 		D79FA94418F1F41800C4A965 /* omer */ = {
 			isa = PBXGroup;
 			children = (
+				D78CC7B61916DA120050DFE1 /* Controllers */,
 				D79B0A5C190A6C7500241ACE /* Model */,
 				D79B0A5B190A6C1D00241ACE /* resources */,
-				D72DDE6218F9EC820034B0C8 /* CarmelitRegular.ttf */,
 				D720410518F69C88007A6830 /* Helpers */,
 				D72040FE18F68B04007A6830 /* lib */,
 				D79FA94D18F1F41800C4A965 /* AppDelegate.h */,
 				D79FA94E18F1F41800C4A965 /* AppDelegate.m */,
 				D79FA95018F1F41800C4A965 /* Main.storyboard */,
-				D79FA95318F1F41800C4A965 /* ViewController.h */,
-				D79FA95418F1F41800C4A965 /* ViewController.m */,
 				D79FA95618F1F41800C4A965 /* Images.xcassets */,
 				D79FA94518F1F41800C4A965 /* Supporting Files */,
 			);
@@ -322,15 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79FA95518F1F41800C4A965 /* ViewController.m in Sources */,
+				D78CC7B91916DA670050DFE1 /* ViewController.m in Sources */,
 				D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */,
 				D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */,
-				D7A6608A1910093C003060F5 /* CounterStoreManager.m in Sources */,
 				D79FA94B18F1F41800C4A965 /* main.m in Sources */,
 				D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */,
-				D79B0A5F190A6CB200241ACE /* CounterModel.m in Sources */,
 				D720410818F69CBF007A6830 /* Sfirat.m in Sources */,
-				D79B0A62190A70A800241ACE /* CounterStoreGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

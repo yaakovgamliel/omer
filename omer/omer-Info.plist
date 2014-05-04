@@ -29,11 +29,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>
-	<array>
-		<string>CarmelitRegular.ttf</string>
-	</array>
-	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<array/>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
