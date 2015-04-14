@@ -6,10 +6,10 @@
 //  Copyright (c) 2014 Yaakov Gamliel. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "G2OAppDelegate.h"
 //#import "CounterStoreManager.h"
 
-@implementation AppDelegate
+@implementation G2OAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

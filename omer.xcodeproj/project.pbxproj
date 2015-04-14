@@ -35,13 +35,21 @@
 		D74BFC2F1ADDB99300DF10AF /* NSDateComponents+AllComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC221ADDB99300DF10AF /* NSDateComponents+AllComponents.m */; };
 		D74BFC301ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC251ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m */; };
 		D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC311ADDBC2000DF10AF /* Launch.storyboard */; };
-		D78CC7B91916DA670050DFE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* ViewController.m */; };
+		D74BFC3F1ADDBE7F00DF10AF /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC3E1ADDBE7F00DF10AF /* InterfaceController.m */; };
+		D74BFC421ADDBE7F00DF10AF /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC411ADDBE7F00DF10AF /* NotificationController.m */; };
+		D74BFC451ADDBE7F00DF10AF /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC441ADDBE7F00DF10AF /* GlanceController.m */; };
+		D74BFC471ADDBE7F00DF10AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC461ADDBE7F00DF10AF /* Images.xcassets */; };
+		D74BFC4B1ADDBE8000DF10AF /* omer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC4A1ADDBE8000DF10AF /* omer WatchKit App.app */; };
+		D74BFC531ADDBE8000DF10AF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC511ADDBE8000DF10AF /* Interface.storyboard */; };
+		D74BFC551ADDBE8000DF10AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC541ADDBE8000DF10AF /* Images.xcassets */; };
+		D74BFC591ADDBE8000DF10AF /* omer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D74BFC381ADDBE7F00DF10AF /* omer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */; };
 		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
 		D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94018F1F41800C4A965 /* CoreGraphics.framework */; };
 		D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
 		D79FA94918F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA94718F1F41800C4A965 /* InfoPlist.strings */; };
 		D79FA94B18F1F41800C4A965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94A18F1F41800C4A965 /* main.m */; };
-		D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94E18F1F41800C4A965 /* AppDelegate.m */; };
+		D79FA94F18F1F41800C4A965 /* G2OAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */; };
 		D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95018F1F41800C4A965 /* Main.storyboard */; };
 		D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95618F1F41800C4A965 /* Images.xcassets */; };
 		D79FA95E18F1F41800C4A965 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA95D18F1F41800C4A965 /* XCTest.framework */; };
@@ -52,6 +60,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D74BFC4C1ADDBE8000DF10AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74BFC491ADDBE8000DF10AF;
+			remoteInfo = "omer WatchKit App";
+		};
+		D74BFC561ADDBE8000DF10AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74BFC371ADDBE7F00DF10AF;
+			remoteInfo = "omer WatchKit Extension";
+		};
 		D79FA96118F1F41800C4A965 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
@@ -61,9 +83,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D74BFC581ADDBE8000DF10AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D74BFC591ADDBE8000DF10AF /* omer WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9E49D1666BFC1BFE29A7AD7B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		AF4AFDA0800DD09293AB3F81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D74BFBC41ADDB90400DF10AF /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
 		D74BFBC61ADDB90400DF10AF /* KCJewishCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishCalendar.h; sourceTree = "<group>"; };
 		D74BFBC71ADDB90400DF10AF /* KCJewishCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJewishCalendar.m; sourceTree = "<group>"; };
@@ -133,8 +167,22 @@
 		D74BFC241ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KCAstronomicalCalendar+DateManipulation.h"; sourceTree = "<group>"; };
 		D74BFC251ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KCAstronomicalCalendar+DateManipulation.m"; sourceTree = "<group>"; };
 		D74BFC321ADDBC2000DF10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launch.storyboard; sourceTree = "<group>"; };
-		D78CC7B71916DA670050DFE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D78CC7B81916DA670050DFE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74BFC381ADDBE7F00DF10AF /* omer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "omer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74BFC3B1ADDBE7F00DF10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74BFC3C1ADDBE7F00DF10AF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		D74BFC3D1ADDBE7F00DF10AF /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		D74BFC3E1ADDBE7F00DF10AF /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		D74BFC401ADDBE7F00DF10AF /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		D74BFC411ADDBE7F00DF10AF /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		D74BFC431ADDBE7F00DF10AF /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		D74BFC441ADDBE7F00DF10AF /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		D74BFC461ADDBE7F00DF10AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D74BFC4A1ADDBE8000DF10AF /* omer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "omer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74BFC501ADDBE8000DF10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74BFC521ADDBE8000DF10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D74BFC541ADDBE8000DF10AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G2OMainViewController.m; sourceTree = "<group>"; };
+		D78CC7B81916DA670050DFE1 /* G2OMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G2OMainViewController.h; sourceTree = "<group>"; };
 		D79B0A55190A540000241ACE /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../Icon-60@2x.png"; sourceTree = "<group>"; };
 		D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "../../Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
 		D79B0A58190A545C00241ACE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../Icon-Small@2x.png"; sourceTree = "<group>"; };
@@ -146,8 +194,8 @@
 		D79FA94818F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79FA94A18F1F41800C4A965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D79FA94C18F1F41800C4A965 /* omer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "omer-Prefix.pch"; sourceTree = "<group>"; };
-		D79FA94D18F1F41800C4A965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D79FA94E18F1F41800C4A965 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D79FA94D18F1F41800C4A965 /* G2OAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OAppDelegate.h; sourceTree = "<group>"; };
+		D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OAppDelegate.m; sourceTree = "<group>"; };
 		D79FA95118F1F41800C4A965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D79FA95618F1F41800C4A965 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D79FA95C18F1F41800C4A965 /* omerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,10 +203,16 @@
 		D79FA96518F1F41800C4A965 /* omerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omerTests-Info.plist"; sourceTree = "<group>"; };
 		D79FA96718F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79FA96918F1F41800C4A965 /* omerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omerTests.m; sourceTree = "<group>"; };
-		F209C23CA662A2A5DD4907D2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D74BFC351ADDBE7F00DF10AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79FA93818F1F41800C4A965 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,15 +236,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C866305B90A3CC37CF07EFF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E49D1666BFC1BFE29A7AD7B /* Pods.debug.xcconfig */,
-				AF4AFDA0800DD09293AB3F81 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		D72040FE18F68B04007A6830 /* lib */ = {
 			isa = PBXGroup;
 			children = (
@@ -401,11 +446,53 @@
 			path = KosherCocoa;
 			sourceTree = "<group>";
 		};
+		D74BFC391ADDBE7F00DF10AF /* omer WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D74BFC3D1ADDBE7F00DF10AF /* InterfaceController.h */,
+				D74BFC3E1ADDBE7F00DF10AF /* InterfaceController.m */,
+				D74BFC401ADDBE7F00DF10AF /* NotificationController.h */,
+				D74BFC411ADDBE7F00DF10AF /* NotificationController.m */,
+				D74BFC431ADDBE7F00DF10AF /* GlanceController.h */,
+				D74BFC441ADDBE7F00DF10AF /* GlanceController.m */,
+				D74BFC461ADDBE7F00DF10AF /* Images.xcassets */,
+				D74BFC3A1ADDBE7F00DF10AF /* Supporting Files */,
+			);
+			path = "omer WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D74BFC3A1ADDBE7F00DF10AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74BFC3B1ADDBE7F00DF10AF /* Info.plist */,
+				D74BFC3C1ADDBE7F00DF10AF /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D74BFC4E1ADDBE8000DF10AF /* omer WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D74BFC511ADDBE8000DF10AF /* Interface.storyboard */,
+				D74BFC541ADDBE8000DF10AF /* Images.xcassets */,
+				D74BFC4F1ADDBE8000DF10AF /* Supporting Files */,
+			);
+			path = "omer WatchKit App";
+			sourceTree = "<group>";
+		};
+		D74BFC4F1ADDBE8000DF10AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D74BFC501ADDBE8000DF10AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		D78CC7B61916DA120050DFE1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D78CC7B81916DA670050DFE1 /* ViewController.h */,
-				D78CC7B71916DA670050DFE1 /* ViewController.m */,
+				D78CC7B81916DA670050DFE1 /* G2OMainViewController.h */,
+				D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -432,9 +519,10 @@
 			children = (
 				D79FA94418F1F41800C4A965 /* omer */,
 				D79FA96318F1F41800C4A965 /* omerTests */,
+				D74BFC391ADDBE7F00DF10AF /* omer WatchKit Extension */,
+				D74BFC4E1ADDBE8000DF10AF /* omer WatchKit App */,
 				D79FA93D18F1F41800C4A965 /* Frameworks */,
 				D79FA93C18F1F41800C4A965 /* Products */,
-				2C866305B90A3CC37CF07EFF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -443,6 +531,8 @@
 			children = (
 				D79FA93B18F1F41800C4A965 /* omer.app */,
 				D79FA95C18F1F41800C4A965 /* omerTests.xctest */,
+				D74BFC381ADDBE7F00DF10AF /* omer WatchKit Extension.appex */,
+				D74BFC4A1ADDBE8000DF10AF /* omer WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -454,7 +544,6 @@
 				D79FA94018F1F41800C4A965 /* CoreGraphics.framework */,
 				D79FA94218F1F41800C4A965 /* UIKit.framework */,
 				D79FA95D18F1F41800C4A965 /* XCTest.framework */,
-				F209C23CA662A2A5DD4907D2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -467,8 +556,8 @@
 				D79B0A5B190A6C1D00241ACE /* resources */,
 				D720410518F69C88007A6830 /* Helpers */,
 				D72040FE18F68B04007A6830 /* lib */,
-				D79FA94D18F1F41800C4A965 /* AppDelegate.h */,
-				D79FA94E18F1F41800C4A965 /* AppDelegate.m */,
+				D79FA94D18F1F41800C4A965 /* G2OAppDelegate.h */,
+				D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */,
 				D79FA95018F1F41800C4A965 /* Main.storyboard */,
 				D74BFC311ADDBC2000DF10AF /* Launch.storyboard */,
 				D79FA95618F1F41800C4A965 /* Images.xcassets */,
@@ -509,6 +598,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D74BFC371ADDBE7F00DF10AF /* omer WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74BFC5D1ADDBE8000DF10AF /* Build configuration list for PBXNativeTarget "omer WatchKit Extension" */;
+			buildPhases = (
+				D74BFC341ADDBE7F00DF10AF /* Sources */,
+				D74BFC351ADDBE7F00DF10AF /* Frameworks */,
+				D74BFC361ADDBE7F00DF10AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74BFC4D1ADDBE8000DF10AF /* PBXTargetDependency */,
+			);
+			name = "omer WatchKit Extension";
+			productName = "omer WatchKit Extension";
+			productReference = D74BFC381ADDBE7F00DF10AF /* omer WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		D74BFC491ADDBE8000DF10AF /* omer WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74BFC5A1ADDBE8000DF10AF /* Build configuration list for PBXNativeTarget "omer WatchKit App" */;
+			buildPhases = (
+				D74BFC481ADDBE8000DF10AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "omer WatchKit App";
+			productName = "omer WatchKit App";
+			productReference = D74BFC4A1ADDBE8000DF10AF /* omer WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 		D79FA93A18F1F41800C4A965 /* omer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D79FA96D18F1F41800C4A965 /* Build configuration list for PBXNativeTarget "omer" */;
@@ -516,10 +638,12 @@
 				D79FA93718F1F41800C4A965 /* Sources */,
 				D79FA93818F1F41800C4A965 /* Frameworks */,
 				D79FA93918F1F41800C4A965 /* Resources */,
+				D74BFC581ADDBE8000DF10AF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D74BFC571ADDBE8000DF10AF /* PBXTargetDependency */,
 			);
 			name = omer;
 			productName = omer;
@@ -553,6 +677,13 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Yaakov Gamliel";
 				TargetAttributes = {
+					D74BFC371ADDBE7F00DF10AF = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 8CBN6LPGUU;
+					};
+					D74BFC491ADDBE8000DF10AF = {
+						CreatedOnToolsVersion = 6.3;
+					};
 					D79FA93A18F1F41800C4A965 = {
 						DevelopmentTeam = 8CBN6LPGUU;
 					};
@@ -576,11 +707,31 @@
 			targets = (
 				D79FA93A18F1F41800C4A965 /* omer */,
 				D79FA95B18F1F41800C4A965 /* omerTests */,
+				D74BFC371ADDBE7F00DF10AF /* omer WatchKit Extension */,
+				D74BFC491ADDBE8000DF10AF /* omer WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D74BFC361ADDBE7F00DF10AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74BFC471ADDBE7F00DF10AF /* Images.xcassets in Resources */,
+				D74BFC4B1ADDBE8000DF10AF /* omer WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74BFC481ADDBE8000DF10AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74BFC531ADDBE8000DF10AF /* Interface.storyboard in Resources */,
+				D74BFC551ADDBE8000DF10AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79FA93918F1F41800C4A965 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -603,15 +754,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D74BFC341ADDBE7F00DF10AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74BFC421ADDBE7F00DF10AF /* NotificationController.m in Sources */,
+				D74BFC3F1ADDBE7F00DF10AF /* InterfaceController.m in Sources */,
+				D74BFC451ADDBE7F00DF10AF /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D79FA93718F1F41800C4A965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D74BFC291ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.m in Sources */,
 				D74BFBEF1ADDB90400DF10AF /* KCDaf.m in Sources */,
-				D78CC7B91916DA670050DFE1 /* ViewController.m in Sources */,
+				D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */,
 				D74BFBF31ADDB90400DF10AF /* KCSefiraFormatter.m in Sources */,
-				D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */,
+				D79FA94F18F1F41800C4A965 /* G2OAppDelegate.m in Sources */,
 				D74BFC2E1ADDB99300DF10AF /* NSDate+Description.m in Sources */,
 				D74BFBFC1ADDB90400DF10AF /* trigonometry.c in Sources */,
 				D74BFC2C1ADDB99300DF10AF /* NSDate+Components.m in Sources */,
@@ -651,6 +812,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D74BFC4D1ADDBE8000DF10AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74BFC491ADDBE8000DF10AF /* omer WatchKit App */;
+			targetProxy = D74BFC4C1ADDBE8000DF10AF /* PBXContainerItemProxy */;
+		};
+		D74BFC571ADDBE8000DF10AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74BFC371ADDBE7F00DF10AF /* omer WatchKit Extension */;
+			targetProxy = D74BFC561ADDBE8000DF10AF /* PBXContainerItemProxy */;
+		};
 		D79FA96218F1F41800C4A965 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D79FA93A18F1F41800C4A965 /* omer */;
@@ -665,6 +836,14 @@
 				D74BFC321ADDBC2000DF10AF /* Base */,
 			);
 			name = Launch.storyboard;
+			sourceTree = "<group>";
+		};
+		D74BFC511ADDBE8000DF10AF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74BFC521ADDBE8000DF10AF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 		D79FA94718F1F41800C4A965 /* InfoPlist.strings */ = {
@@ -694,6 +873,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D74BFC5B1ADDBE8000DF10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = omer_WatchKit_Extension;
+				INFOPLIST_FILE = "omer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		D74BFC5C1ADDBE8000DF10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = omer_WatchKit_Extension;
+				INFOPLIST_FILE = "omer WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		D74BFC5E1ADDBE8000DF10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "omer WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D74BFC5F1ADDBE8000DF10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "omer WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		D79FA96B18F1F41800C4A965 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -766,7 +1027,6 @@
 		};
 		D79FA96E18F1F41800C4A965 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E49D1666BFC1BFE29A7AD7B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -782,7 +1042,6 @@
 		};
 		D79FA96F18F1F41800C4A965 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF4AFDA0800DD09293AB3F81 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -839,6 +1098,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D74BFC5A1ADDBE8000DF10AF /* Build configuration list for PBXNativeTarget "omer WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74BFC5B1ADDBE8000DF10AF /* Debug */,
+				D74BFC5C1ADDBE8000DF10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D74BFC5D1ADDBE8000DF10AF /* Build configuration list for PBXNativeTarget "omer WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74BFC5E1ADDBE8000DF10AF /* Debug */,
+				D74BFC5F1ADDBE8000DF10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D79FA93618F1F41800C4A965 /* Build configuration list for PBXProject "omer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

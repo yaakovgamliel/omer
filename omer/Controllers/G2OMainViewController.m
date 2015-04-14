@@ -6,12 +6,12 @@
 //  Copyright (c) 2014 Yaakov Gamliel. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "G2OMainViewController.h"
 #import "Calendar.h"
 #import "KCSefiratHaomerCalculator.h"
 
 
-@interface ViewController ()
+@interface G2OMainViewController ()
 
 @property (strong, nonatomic) IBOutlet UILabel *testlabel;
 @property (strong, nonatomic) IBOutlet UILabel *counterLabel;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation ViewController
+@implementation G2OMainViewController
 
 - (void)viewDidLoad {
     
