@@ -10,29 +10,29 @@
 	<string>omer</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FC9459C5-63B6-494B-805A-DF0DB83784D7</key>
-		<string>https://github.com/yasha0x80/omer.git</string>
+		<key>F75F8DD75F2E652467995B1ABE6449F0DB306FC2</key>
+		<string>https://github.com/yaakovgamliel/omer.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>omer.xcodeproj/project.xcworkspace</string>
+	<string>omer.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FC9459C5-63B6-494B-805A-DF0DB83784D7</key>
+		<key>F75F8DD75F2E652467995B1ABE6449F0DB306FC2</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/yasha0x80/omer.git</string>
+	<string>https://github.com/yaakovgamliel/omer.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FC9459C5-63B6-494B-805A-DF0DB83784D7</string>
+	<string>F75F8DD75F2E652467995B1ABE6449F0DB306FC2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FC9459C5-63B6-494B-805A-DF0DB83784D7</string>
+			<string>F75F8DD75F2E652467995B1ABE6449F0DB306FC2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>omer</string>
 		</dict>

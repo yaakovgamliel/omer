@@ -7,13 +7,15 @@
 //
 
 #import "AppDelegate.h"
-#import "CounterStoreManager.h"
+//#import "CounterStoreManager.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeBadge|UIUserNotificationTypeSound categories:nil]];
+
     [[UIApplication sharedApplication]setApplicationIconBadgeNumber:0];
 
     [self schduleNotifications];
@@ -112,7 +114,7 @@
 }
 
 - (void)updateBadgeCount {
-    [[CounterStoreManager sharedManager]updateCount];
-    [[UIApplication sharedApplication]setApplicationIconBadgeNumber:[[CounterStoreManager sharedManager]dayCount]];
+//    [[CounterStoreManager sharedManager]updateCount];
+//    [[UIApplication sharedApplication]setApplicationIconBadgeNumber:[[CounterStoreManager sharedManager]dayCount]];
 }
 @end
