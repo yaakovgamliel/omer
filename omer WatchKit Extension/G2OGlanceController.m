@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Yaakov Gamliel. All rights reserved.
 //
 
-#import "GlanceController.h"
+#import "G2OGlanceController.h"
 
 
-@interface GlanceController()
+@interface G2OGlanceController()
 
 @end
 
 
-@implementation GlanceController
+@implementation G2OGlanceController
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];

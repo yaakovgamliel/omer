@@ -1,5 +1,5 @@
 //
-//  InterfaceController.h
+//  GlanceController.h
 //  omer WatchKit Extension
 //
 //  Created by Yaakov Gamliel on 4/15/15.
@@ -9,6 +9,6 @@
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
 
-@interface InterfaceController : WKInterfaceController
+@interface G2OGlanceController : WKInterfaceController
 
 @end

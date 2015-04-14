@@ -35,9 +35,9 @@
 		D74BFC2F1ADDB99300DF10AF /* NSDateComponents+AllComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC221ADDB99300DF10AF /* NSDateComponents+AllComponents.m */; };
 		D74BFC301ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC251ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m */; };
 		D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC311ADDBC2000DF10AF /* Launch.storyboard */; };
-		D74BFC3F1ADDBE7F00DF10AF /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC3E1ADDBE7F00DF10AF /* InterfaceController.m */; };
-		D74BFC421ADDBE7F00DF10AF /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC411ADDBE7F00DF10AF /* NotificationController.m */; };
-		D74BFC451ADDBE7F00DF10AF /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC441ADDBE7F00DF10AF /* GlanceController.m */; };
+		D74BFC3F1ADDBE7F00DF10AF /* G2OInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC3E1ADDBE7F00DF10AF /* G2OInterfaceController.m */; };
+		D74BFC421ADDBE7F00DF10AF /* G2ONotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC411ADDBE7F00DF10AF /* G2ONotificationController.m */; };
+		D74BFC451ADDBE7F00DF10AF /* G2OGlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC441ADDBE7F00DF10AF /* G2OGlanceController.m */; };
 		D74BFC471ADDBE7F00DF10AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC461ADDBE7F00DF10AF /* Images.xcassets */; };
 		D74BFC4B1ADDBE8000DF10AF /* omer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC4A1ADDBE8000DF10AF /* omer WatchKit App.app */; };
 		D74BFC531ADDBE8000DF10AF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC511ADDBE8000DF10AF /* Interface.storyboard */; };
@@ -170,12 +170,12 @@
 		D74BFC381ADDBE7F00DF10AF /* omer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "omer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74BFC3B1ADDBE7F00DF10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D74BFC3C1ADDBE7F00DF10AF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D74BFC3D1ADDBE7F00DF10AF /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		D74BFC3E1ADDBE7F00DF10AF /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		D74BFC401ADDBE7F00DF10AF /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		D74BFC411ADDBE7F00DF10AF /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		D74BFC431ADDBE7F00DF10AF /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
-		D74BFC441ADDBE7F00DF10AF /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		D74BFC3D1ADDBE7F00DF10AF /* G2OInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OInterfaceController.h; sourceTree = "<group>"; };
+		D74BFC3E1ADDBE7F00DF10AF /* G2OInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OInterfaceController.m; sourceTree = "<group>"; };
+		D74BFC401ADDBE7F00DF10AF /* G2ONotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2ONotificationController.h; sourceTree = "<group>"; };
+		D74BFC411ADDBE7F00DF10AF /* G2ONotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2ONotificationController.m; sourceTree = "<group>"; };
+		D74BFC431ADDBE7F00DF10AF /* G2OGlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OGlanceController.h; sourceTree = "<group>"; };
+		D74BFC441ADDBE7F00DF10AF /* G2OGlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OGlanceController.m; sourceTree = "<group>"; };
 		D74BFC461ADDBE7F00DF10AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D74BFC4A1ADDBE8000DF10AF /* omer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "omer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74BFC501ADDBE8000DF10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -449,12 +449,12 @@
 		D74BFC391ADDBE7F00DF10AF /* omer WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D74BFC3D1ADDBE7F00DF10AF /* InterfaceController.h */,
-				D74BFC3E1ADDBE7F00DF10AF /* InterfaceController.m */,
-				D74BFC401ADDBE7F00DF10AF /* NotificationController.h */,
-				D74BFC411ADDBE7F00DF10AF /* NotificationController.m */,
-				D74BFC431ADDBE7F00DF10AF /* GlanceController.h */,
-				D74BFC441ADDBE7F00DF10AF /* GlanceController.m */,
+				D74BFC3D1ADDBE7F00DF10AF /* G2OInterfaceController.h */,
+				D74BFC3E1ADDBE7F00DF10AF /* G2OInterfaceController.m */,
+				D74BFC401ADDBE7F00DF10AF /* G2ONotificationController.h */,
+				D74BFC411ADDBE7F00DF10AF /* G2ONotificationController.m */,
+				D74BFC431ADDBE7F00DF10AF /* G2OGlanceController.h */,
+				D74BFC441ADDBE7F00DF10AF /* G2OGlanceController.m */,
 				D74BFC461ADDBE7F00DF10AF /* Images.xcassets */,
 				D74BFC3A1ADDBE7F00DF10AF /* Supporting Files */,
 			);
@@ -758,9 +758,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74BFC421ADDBE7F00DF10AF /* NotificationController.m in Sources */,
-				D74BFC3F1ADDBE7F00DF10AF /* InterfaceController.m in Sources */,
-				D74BFC451ADDBE7F00DF10AF /* GlanceController.m in Sources */,
+				D74BFC421ADDBE7F00DF10AF /* G2ONotificationController.m in Sources */,
+				D74BFC3F1ADDBE7F00DF10AF /* G2OInterfaceController.m in Sources */,
+				D74BFC451ADDBE7F00DF10AF /* G2OGlanceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -887,7 +887,7 @@
 				);
 				IBSC_MODULE = omer_WatchKit_Extension;
 				INFOPLIST_FILE = "omer WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -907,7 +907,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				IBSC_MODULE = omer_WatchKit_Extension;
 				INFOPLIST_FILE = "omer WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

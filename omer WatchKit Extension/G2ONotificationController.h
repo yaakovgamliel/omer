@@ -9,6 +9,6 @@
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
 
-@interface NotificationController : WKUserNotificationInterfaceController
+@interface G2ONotificationController : WKUserNotificationInterfaceController
 
 @end

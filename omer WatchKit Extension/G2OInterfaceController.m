@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Yaakov Gamliel. All rights reserved.
 //
 
-#import "InterfaceController.h"
+#import "G2OInterfaceController.h"
 
 
-@interface InterfaceController()
+@interface G2OInterfaceController()
 
 @end
 
 
-@implementation InterfaceController
+@implementation G2OInterfaceController
 
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];

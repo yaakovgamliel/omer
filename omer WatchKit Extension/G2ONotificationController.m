@@ -6,15 +6,15 @@
 //  Copyright (c) 2015 Yaakov Gamliel. All rights reserved.
 //
 
-#import "NotificationController.h"
+#import "G2ONotificationController.h"
 
 
-@interface NotificationController()
+@interface G2ONotificationController()
 
 @end
 
 
-@implementation NotificationController
+@implementation G2ONotificationController
 
 - (instancetype)init {
     self = [super init];
