@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D720410818F69CBF007A6830 /* Sfirat.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410718F69CBF007A6830 /* Sfirat.m */; };
 		D74BFBED1ADDB90400DF10AF /* KCJewishCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBC71ADDB90400DF10AF /* KCJewishCalendar.m */; };
 		D74BFBEE1ADDB90400DF10AF /* KCJewishHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBC91ADDB90400DF10AF /* KCJewishHoliday.m */; };
 		D74BFBEF1ADDB90400DF10AF /* KCDaf.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBCC1ADDB90400DF10AF /* KCDaf.m */; };
@@ -50,7 +49,6 @@
 		D79FA96018F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
 		D79FA96818F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA96618F1F41800C4A965 /* InfoPlist.strings */; };
 		D79FA96A18F1F41800C4A965 /* omerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA96918F1F41800C4A965 /* omerTests.m */; };
-		F013EC76EF4C45C6A04C5553 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F209C23CA662A2A5DD4907D2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +64,6 @@
 /* Begin PBXFileReference section */
 		9E49D1666BFC1BFE29A7AD7B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AF4AFDA0800DD09293AB3F81 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		D720410618F69CBF007A6830 /* Sfirat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sfirat.h; sourceTree = "<group>"; };
-		D720410718F69CBF007A6830 /* Sfirat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sfirat.m; sourceTree = "<group>"; };
 		D74BFBC41ADDB90400DF10AF /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
 		D74BFBC61ADDB90400DF10AF /* KCJewishCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishCalendar.h; sourceTree = "<group>"; };
 		D74BFBC71ADDB90400DF10AF /* KCJewishCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJewishCalendar.m; sourceTree = "<group>"; };
@@ -170,7 +166,6 @@
 				D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */,
 				D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */,
 				D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
-				F013EC76EF4C45C6A04C5553 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +204,6 @@
 		D720410518F69C88007A6830 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D720410618F69CBF007A6830 /* Sfirat.h */,
-				D720410718F69CBF007A6830 /* Sfirat.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -520,11 +513,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D79FA96D18F1F41800C4A965 /* Build configuration list for PBXNativeTarget "omer" */;
 			buildPhases = (
-				9A250D6FCA0F3693A57AF32D /* Check Pods Manifest.lock */,
 				D79FA93718F1F41800C4A965 /* Sources */,
 				D79FA93818F1F41800C4A965 /* Frameworks */,
 				D79FA93918F1F41800C4A965 /* Resources */,
-				D0691E20506AC2226B74DD64 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -611,39 +602,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		9A250D6FCA0F3693A57AF32D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		D0691E20506AC2226B74DD64 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		D79FA93718F1F41800C4A965 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -673,7 +631,6 @@
 				D74BFBEE1ADDB90400DF10AF /* KCJewishHoliday.m in Sources */,
 				D74BFC2A1ADDB99300DF10AF /* NSCalendar+Juncture.m in Sources */,
 				D74BFC2D1ADDB99300DF10AF /* NSDate+ConvenientDates.m in Sources */,
-				D720410818F69CBF007A6830 /* Sfirat.m in Sources */,
 				D74BFBF21ADDB90400DF10AF /* KCParashatHashavuaCalculator.m in Sources */,
 				D74BFBF91ADDB90400DF10AF /* KCAstronomicalCalendar.m in Sources */,
 				D74BFBF41ADDB90400DF10AF /* KCSefiratHaomerCalculator.m in Sources */,
