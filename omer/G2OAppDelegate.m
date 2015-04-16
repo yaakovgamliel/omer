@@ -69,7 +69,7 @@
         [comps setMinute:30];
         
         NSCalendar *hebrewCalendar = [[NSCalendar alloc]
-                                      initWithCalendarIdentifier:NSGregorianCalendar];
+                                      initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
         
         NSDate *date = [hebrewCalendar dateFromComponents:comps];
 
@@ -77,10 +77,11 @@
 		notif.fireDate = date;
 		notif.timeZone = [NSTimeZone defaultTimeZone];
 		
-		notif.alertBody = NSLocalizedString(@"Please count the Omer", nil);
+		notif.alertBody = NSLocalizedString(@"Remember to count the Omer", nil);
 		notif.soundName = UILocalNotificationDefaultSoundName;
     
         notif.repeatInterval = NSCalendarUnitDay;
+        notif.applicationIconBadgeNumber = 1;
 						
 		[[UIApplication sharedApplication] scheduleLocalNotification:notif];
 	}
@@ -94,7 +95,7 @@
         [comps setMinute:00];
         
         NSCalendar *hebrewCalendar = [[NSCalendar alloc]
-                                      initWithCalendarIdentifier:NSGregorianCalendar];
+                                      initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
         
         NSDate *date = [hebrewCalendar dateFromComponents:comps];
         
@@ -102,15 +103,14 @@
 		notif.fireDate = date;
 		notif.timeZone = [NSTimeZone defaultTimeZone];
 		
-		notif.alertBody = NSLocalizedString(@"Please count the Omer", nil);
+		notif.alertBody = NSLocalizedString(@"Remember to count the Omer", nil);
 		notif.soundName = UILocalNotificationDefaultSoundName;
         
         notif.repeatInterval = NSCalendarUnitDay;
-        
+        notif.applicationIconBadgeNumber = 1;
+
 		[[UIApplication sharedApplication] scheduleLocalNotification:notif];
 	}
-
-
 }
 
 - (void)updateBadgeCount {
