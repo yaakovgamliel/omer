@@ -56,10 +56,8 @@
 }
 
 - (void)setupDayWeekLabel {
-
-    NSDate *nowDate = [NSDate date];
     
-    NSInteger dayOfSefira = [KCSefiratHaomerCalculator dayOfSefiraForDate:nowDate];
+    NSInteger dayOfSefira = [self sfiraCount];
 
     NSInteger countDay = dayOfSefira;
     NSInteger weekDay = countDay / 7;
@@ -76,12 +74,30 @@
 
 - (void)updateLabels {
     
-    NSDate *nowDate = [NSDate date];
-    
-    NSInteger dayOfSefira = [KCSefiratHaomerCalculator dayOfSefiraForDate:nowDate];
+    NSInteger dayOfSefira = [self sfiraCount];
     
     NSLog(@"%ld",dayOfSefira);
     self.counterLabel.text = [NSString stringWithFormat:@"%ld",(long)dayOfSefira];
 
+}
+
+- (NSInteger)sfiraCount {
+    
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = @"HH";
+    
+    NSDate *currentTime = [NSDate date];
+    NSString *currentHour =  [dateFormatter stringFromDate:currentTime];
+    
+    NSDate *nowDate = [NSDate date];
+    
+    NSInteger dayOfSefira = [KCSefiratHaomerCalculator dayOfSefiraForDate:nowDate];
+
+    if ([currentHour integerValue] >= 20) {
+        
+        return dayOfSefira + 1;
+    }
+    
+    return dayOfSefira;
 }
 @end
