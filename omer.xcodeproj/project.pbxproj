@@ -13,33 +13,11 @@
 		D700DC441AE10D8F00763902 /* G2OTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D700DC431AE10D8F00763902 /* G2OTodayViewController.m */; };
 		D700DC461AE10D8F00763902 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D700DC451AE10D8F00763902 /* MainInterface.storyboard */; };
 		D700DC491AE10D8F00763902 /* Omer.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D700DC3C1AE10D8F00763902 /* Omer.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D74BFBED1ADDB90400DF10AF /* KCJewishCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBC71ADDB90400DF10AF /* KCJewishCalendar.m */; };
-		D74BFBEE1ADDB90400DF10AF /* KCJewishHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBC91ADDB90400DF10AF /* KCJewishHoliday.m */; };
-		D74BFBEF1ADDB90400DF10AF /* KCDaf.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBCC1ADDB90400DF10AF /* KCDaf.m */; };
-		D74BFBF01ADDB90400DF10AF /* KCDafYomiCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBCE1ADDB90400DF10AF /* KCDafYomiCalculator.m */; };
-		D74BFBF11ADDB90400DF10AF /* KCParasha.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBD11ADDB90400DF10AF /* KCParasha.m */; };
-		D74BFBF21ADDB90400DF10AF /* KCParashatHashavuaCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBD31ADDB90400DF10AF /* KCParashatHashavuaCalculator.m */; };
-		D74BFBF31ADDB90400DF10AF /* KCSefiraFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBD61ADDB90400DF10AF /* KCSefiraFormatter.m */; };
-		D74BFBF41ADDB90400DF10AF /* KCSefiratHaomerCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBD81ADDB90400DF10AF /* KCSefiratHaomerCalculator.m */; };
-		D74BFBF51ADDB90400DF10AF /* KCComplexZmanimCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBDB1ADDB90400DF10AF /* KCComplexZmanimCalendar.m */; };
-		D74BFBF61ADDB90400DF10AF /* KCZman.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBDD1ADDB90400DF10AF /* KCZman.m */; };
-		D74BFBF71ADDB90400DF10AF /* KCZmanimCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBDF1ADDB90400DF10AF /* KCZmanimCalendar.m */; };
-		D74BFBF81ADDB90400DF10AF /* KCAstronomicalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBE21ADDB90400DF10AF /* KCAstronomicalCalculator.m */; };
-		D74BFBF91ADDB90400DF10AF /* KCAstronomicalCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBE41ADDB90400DF10AF /* KCAstronomicalCalendar.m */; };
-		D74BFBFA1ADDB90400DF10AF /* KCGeoLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBE61ADDB90400DF10AF /* KCGeoLocation.m */; };
-		D74BFBFB1ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBE81ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.m */; };
-		D74BFBFC1ADDB90400DF10AF /* trigonometry.c in Sources */ = {isa = PBXBuildFile; fileRef = D74BFBEB1ADDB90400DF10AF /* trigonometry.c */; };
-		D74BFC261ADDB99300DF10AF /* NSCalendar+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC0E1ADDB99300DF10AF /* NSCalendar+Components.m */; };
-		D74BFC271ADDB99300DF10AF /* NSCalendar+DateComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC101ADDB99300DF10AF /* NSCalendar+DateComparison.m */; };
-		D74BFC281ADDB99300DF10AF /* NSCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC121ADDB99300DF10AF /* NSCalendar+DateManipulation.m */; };
-		D74BFC291ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC141ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.m */; };
-		D74BFC2A1ADDB99300DF10AF /* NSCalendar+Juncture.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC161ADDB99300DF10AF /* NSCalendar+Juncture.m */; };
-		D74BFC2B1ADDB99300DF10AF /* NSCalendar+Ranges.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC181ADDB99300DF10AF /* NSCalendar+Ranges.m */; };
-		D74BFC2C1ADDB99300DF10AF /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC1B1ADDB99300DF10AF /* NSDate+Components.m */; };
-		D74BFC2D1ADDB99300DF10AF /* NSDate+ConvenientDates.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC1D1ADDB99300DF10AF /* NSDate+ConvenientDates.m */; };
-		D74BFC2E1ADDB99300DF10AF /* NSDate+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC1F1ADDB99300DF10AF /* NSDate+Description.m */; };
-		D74BFC2F1ADDB99300DF10AF /* NSDateComponents+AllComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC221ADDB99300DF10AF /* NSDateComponents+AllComponents.m */; };
-		D74BFC301ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC251ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m */; };
+		D725E39C1AE14CA800224660 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D725E3961AE14B3E00224660 /* KosherCocoaKit.framework */; };
+		D725E39F1AE14D3F00224660 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D725E39E1AE14D3F00224660 /* KosherCocoaKit.framework */; };
+		D725E3A01AE14D3F00224660 /* KosherCocoaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D725E39E1AE14D3F00224660 /* KosherCocoaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D725E3A71AE14DB100224660 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D725E3A61AE14DB100224660 /* KosherCocoaKit.framework */; };
+		D725E3A81AE14DB100224660 /* KosherCocoaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D725E3A61AE14DB100224660 /* KosherCocoaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC311ADDBC2000DF10AF /* Launch.storyboard */; };
 		D74BFC3F1ADDBE7F00DF10AF /* G2OInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC3E1ADDBE7F00DF10AF /* G2OInterfaceController.m */; };
 		D74BFC421ADDBE7F00DF10AF /* G2ONotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74BFC411ADDBE7F00DF10AF /* G2ONotificationController.m */; };
@@ -97,6 +75,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D725E3A11AE14D3F00224660 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D725E3A01AE14D3F00224660 /* KosherCocoaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D725E3A91AE14DB200224660 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D725E3A81AE14DB100224660 /* KosherCocoaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D74BFC581ADDBE8000DF10AF /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,74 +120,11 @@
 		D700DC421AE10D8F00763902 /* G2OTodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OTodayViewController.h; sourceTree = "<group>"; };
 		D700DC431AE10D8F00763902 /* G2OTodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OTodayViewController.m; sourceTree = "<group>"; };
 		D700DC451AE10D8F00763902 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
-		D74BFBC41ADDB90400DF10AF /* Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar.h; sourceTree = "<group>"; };
-		D74BFBC61ADDB90400DF10AF /* KCJewishCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishCalendar.h; sourceTree = "<group>"; };
-		D74BFBC71ADDB90400DF10AF /* KCJewishCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJewishCalendar.m; sourceTree = "<group>"; };
-		D74BFBC81ADDB90400DF10AF /* KCJewishHoliday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishHoliday.h; sourceTree = "<group>"; };
-		D74BFBC91ADDB90400DF10AF /* KCJewishHoliday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCJewishHoliday.m; sourceTree = "<group>"; };
-		D74BFBCB1ADDB90400DF10AF /* KCDaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDaf.h; sourceTree = "<group>"; };
-		D74BFBCC1ADDB90400DF10AF /* KCDaf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDaf.m; sourceTree = "<group>"; };
-		D74BFBCD1ADDB90400DF10AF /* KCDafYomiCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCDafYomiCalculator.h; sourceTree = "<group>"; };
-		D74BFBCE1ADDB90400DF10AF /* KCDafYomiCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCDafYomiCalculator.m; sourceTree = "<group>"; };
-		D74BFBD01ADDB90400DF10AF /* KCParasha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCParasha.h; sourceTree = "<group>"; };
-		D74BFBD11ADDB90400DF10AF /* KCParasha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCParasha.m; sourceTree = "<group>"; };
-		D74BFBD21ADDB90400DF10AF /* KCParashatHashavuaCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCParashatHashavuaCalculator.h; sourceTree = "<group>"; };
-		D74BFBD31ADDB90400DF10AF /* KCParashatHashavuaCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCParashatHashavuaCalculator.m; sourceTree = "<group>"; };
-		D74BFBD51ADDB90400DF10AF /* KCSefiraFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSefiraFormatter.h; sourceTree = "<group>"; };
-		D74BFBD61ADDB90400DF10AF /* KCSefiraFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSefiraFormatter.m; sourceTree = "<group>"; };
-		D74BFBD71ADDB90400DF10AF /* KCSefiratHaomerCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSefiratHaomerCalculator.h; sourceTree = "<group>"; };
-		D74BFBD81ADDB90400DF10AF /* KCSefiratHaomerCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSefiratHaomerCalculator.m; sourceTree = "<group>"; };
-		D74BFBDA1ADDB90400DF10AF /* KCComplexZmanimCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCComplexZmanimCalendar.h; sourceTree = "<group>"; };
-		D74BFBDB1ADDB90400DF10AF /* KCComplexZmanimCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCComplexZmanimCalendar.m; sourceTree = "<group>"; };
-		D74BFBDC1ADDB90400DF10AF /* KCZman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZman.h; sourceTree = "<group>"; };
-		D74BFBDD1ADDB90400DF10AF /* KCZman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCZman.m; sourceTree = "<group>"; };
-		D74BFBDE1ADDB90400DF10AF /* KCZmanimCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZmanimCalendar.h; sourceTree = "<group>"; };
-		D74BFBDF1ADDB90400DF10AF /* KCZmanimCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCZmanimCalendar.m; sourceTree = "<group>"; };
-		D74BFBE11ADDB90400DF10AF /* KCAstronomicalCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAstronomicalCalculator.h; sourceTree = "<group>"; };
-		D74BFBE21ADDB90400DF10AF /* KCAstronomicalCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAstronomicalCalculator.m; sourceTree = "<group>"; };
-		D74BFBE31ADDB90400DF10AF /* KCAstronomicalCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAstronomicalCalendar.h; sourceTree = "<group>"; };
-		D74BFBE41ADDB90400DF10AF /* KCAstronomicalCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCAstronomicalCalendar.m; sourceTree = "<group>"; };
-		D74BFBE51ADDB90400DF10AF /* KCGeoLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCGeoLocation.h; sourceTree = "<group>"; };
-		D74BFBE61ADDB90400DF10AF /* KCGeoLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCGeoLocation.m; sourceTree = "<group>"; };
-		D74BFBE71ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSunriseAndSunsetCalculator.h; sourceTree = "<group>"; };
-		D74BFBE81ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSunriseAndSunsetCalculator.m; sourceTree = "<group>"; };
-		D74BFBE91ADDB90400DF10AF /* Solar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solar.h; sourceTree = "<group>"; };
-		D74BFBEB1ADDB90400DF10AF /* trigonometry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trigonometry.c; sourceTree = "<group>"; };
-		D74BFBEC1ADDB90400DF10AF /* trigonometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = trigonometry.h; sourceTree = "<group>"; };
-		D74BFBFE1ADDB98500DF10AF /* KCAstronomical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCAstronomical.h; sourceTree = "<group>"; };
-		D74BFBFF1ADDB98500DF10AF /* KCBearing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCBearing.h; sourceTree = "<group>"; };
-		D74BFC001ADDB98500DF10AF /* KCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCConstants.h; sourceTree = "<group>"; };
-		D74BFC011ADDB98500DF10AF /* KCHebrewYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCHebrewYear.h; sourceTree = "<group>"; };
-		D74BFC021ADDB98500DF10AF /* KCJewishHolidays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCJewishHolidays.h; sourceTree = "<group>"; };
-		D74BFC031ADDB98500DF10AF /* KCMolad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCMolad.h; sourceTree = "<group>"; };
-		D74BFC041ADDB98500DF10AF /* KCParashaReadings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCParashaReadings.h; sourceTree = "<group>"; };
-		D74BFC051ADDB98500DF10AF /* KCSunCalculationTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSunCalculationTypes.h; sourceTree = "<group>"; };
-		D74BFC061ADDB98500DF10AF /* KCTractates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTractates.h; sourceTree = "<group>"; };
-		D74BFC071ADDB98500DF10AF /* KCZenith.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZenith.h; sourceTree = "<group>"; };
-		D74BFC081ADDB98500DF10AF /* KCZenithExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCZenithExtended.h; sourceTree = "<group>"; };
-		D74BFC0B1ADDB99300DF10AF /* MBCalendarCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCalendarCategories.h; sourceTree = "<group>"; };
-		D74BFC0D1ADDB99300DF10AF /* NSCalendar+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Components.h"; sourceTree = "<group>"; };
-		D74BFC0E1ADDB99300DF10AF /* NSCalendar+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Components.m"; sourceTree = "<group>"; };
-		D74BFC0F1ADDB99300DF10AF /* NSCalendar+DateComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateComparison.h"; sourceTree = "<group>"; };
-		D74BFC101ADDB99300DF10AF /* NSCalendar+DateComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateComparison.m"; sourceTree = "<group>"; };
-		D74BFC111ADDB99300DF10AF /* NSCalendar+DateManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateManipulation.h"; sourceTree = "<group>"; };
-		D74BFC121ADDB99300DF10AF /* NSCalendar+DateManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateManipulation.m"; sourceTree = "<group>"; };
-		D74BFC131ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+hebrewYearTypes.h"; sourceTree = "<group>"; };
-		D74BFC141ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+hebrewYearTypes.m"; sourceTree = "<group>"; };
-		D74BFC151ADDB99300DF10AF /* NSCalendar+Juncture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Juncture.h"; sourceTree = "<group>"; };
-		D74BFC161ADDB99300DF10AF /* NSCalendar+Juncture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Juncture.m"; sourceTree = "<group>"; };
-		D74BFC171ADDB99300DF10AF /* NSCalendar+Ranges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Ranges.h"; sourceTree = "<group>"; };
-		D74BFC181ADDB99300DF10AF /* NSCalendar+Ranges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Ranges.m"; sourceTree = "<group>"; };
-		D74BFC1A1ADDB99300DF10AF /* NSDate+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Components.h"; sourceTree = "<group>"; };
-		D74BFC1B1ADDB99300DF10AF /* NSDate+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Components.m"; sourceTree = "<group>"; };
-		D74BFC1C1ADDB99300DF10AF /* NSDate+ConvenientDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvenientDates.h"; sourceTree = "<group>"; };
-		D74BFC1D1ADDB99300DF10AF /* NSDate+ConvenientDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenientDates.m"; sourceTree = "<group>"; };
-		D74BFC1E1ADDB99300DF10AF /* NSDate+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Description.h"; sourceTree = "<group>"; };
-		D74BFC1F1ADDB99300DF10AF /* NSDate+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Description.m"; sourceTree = "<group>"; };
-		D74BFC211ADDB99300DF10AF /* NSDateComponents+AllComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+AllComponents.h"; sourceTree = "<group>"; };
-		D74BFC221ADDB99300DF10AF /* NSDateComponents+AllComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+AllComponents.m"; sourceTree = "<group>"; };
-		D74BFC241ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KCAstronomicalCalendar+DateManipulation.h"; sourceTree = "<group>"; };
-		D74BFC251ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KCAstronomicalCalendar+DateManipulation.m"; sourceTree = "<group>"; };
+		D725E3961AE14B3E00224660 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KosherCocoaKit.framework; sourceTree = "<group>"; };
+		D725E39A1AE14C8C00224660 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KosherCocoaKit.framework; path = ../../../Desktop/KosherCocoaKit.framework; sourceTree = "<group>"; };
+		D725E39E1AE14D3F00224660 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KosherCocoaKit.framework; sourceTree = "<group>"; };
+		D725E3A21AE14D9F00224660 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KosherCocoaKit.framework; sourceTree = "<group>"; };
+		D725E3A61AE14DB100224660 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KosherCocoaKit.framework; sourceTree = "<group>"; };
 		D74BFC321ADDBC2000DF10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launch.storyboard; sourceTree = "<group>"; };
 		D74BFC381ADDBE7F00DF10AF /* omer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "omer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74BFC3B1ADDBE7F00DF10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -225,6 +162,8 @@
 		D79FA96518F1F41800C4A965 /* omerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omerTests-Info.plist"; sourceTree = "<group>"; };
 		D79FA96718F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79FA96918F1F41800C4A965 /* omerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omerTests.m; sourceTree = "<group>"; };
+		DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D725E39C1AE14CA800224660 /* KosherCocoaKit.framework in Frameworks */,
 				D700DC3E1AE10D8F00763902 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D725E3A71AE14DB100224660 /* KosherCocoaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */,
+				D725E39F1AE14D3F00224660 /* KosherCocoaKit.framework in Frameworks */,
 				D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */,
 				D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
 			);
@@ -266,6 +208,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C625A5E4076187F8C53F7120 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */,
+				DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D700DC3F1AE10D8F00763902 /* Omer */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,214 +236,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D72040FE18F68B04007A6830 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC091ADDB99300DF10AF /* Categories */,
-				D74BFBFD1ADDB98500DF10AF /* Headers */,
-				D74BFBC21ADDB90400DF10AF /* Core */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		D720410518F69C88007A6830 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		D74BFBC21ADDB90400DF10AF /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBC31ADDB90400DF10AF /* Calendar */,
-				D74BFBE01ADDB90400DF10AF /* Solar */,
-				D74BFBEA1ADDB90400DF10AF /* Utilities */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		D74BFBC31ADDB90400DF10AF /* Calendar */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBC41ADDB90400DF10AF /* Calendar.h */,
-				D74BFBC51ADDB90400DF10AF /* Chagim */,
-				D74BFBCA1ADDB90400DF10AF /* Daf Yomi */,
-				D74BFBCF1ADDB90400DF10AF /* Parasha */,
-				D74BFBD41ADDB90400DF10AF /* Sefira */,
-				D74BFBD91ADDB90400DF10AF /* Zmanim */,
-			);
-			path = Calendar;
-			sourceTree = "<group>";
-		};
-		D74BFBC51ADDB90400DF10AF /* Chagim */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBC61ADDB90400DF10AF /* KCJewishCalendar.h */,
-				D74BFBC71ADDB90400DF10AF /* KCJewishCalendar.m */,
-				D74BFBC81ADDB90400DF10AF /* KCJewishHoliday.h */,
-				D74BFBC91ADDB90400DF10AF /* KCJewishHoliday.m */,
-			);
-			path = Chagim;
-			sourceTree = "<group>";
-		};
-		D74BFBCA1ADDB90400DF10AF /* Daf Yomi */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBCB1ADDB90400DF10AF /* KCDaf.h */,
-				D74BFBCC1ADDB90400DF10AF /* KCDaf.m */,
-				D74BFBCD1ADDB90400DF10AF /* KCDafYomiCalculator.h */,
-				D74BFBCE1ADDB90400DF10AF /* KCDafYomiCalculator.m */,
-			);
-			path = "Daf Yomi";
-			sourceTree = "<group>";
-		};
-		D74BFBCF1ADDB90400DF10AF /* Parasha */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBD01ADDB90400DF10AF /* KCParasha.h */,
-				D74BFBD11ADDB90400DF10AF /* KCParasha.m */,
-				D74BFBD21ADDB90400DF10AF /* KCParashatHashavuaCalculator.h */,
-				D74BFBD31ADDB90400DF10AF /* KCParashatHashavuaCalculator.m */,
-			);
-			path = Parasha;
-			sourceTree = "<group>";
-		};
-		D74BFBD41ADDB90400DF10AF /* Sefira */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBD51ADDB90400DF10AF /* KCSefiraFormatter.h */,
-				D74BFBD61ADDB90400DF10AF /* KCSefiraFormatter.m */,
-				D74BFBD71ADDB90400DF10AF /* KCSefiratHaomerCalculator.h */,
-				D74BFBD81ADDB90400DF10AF /* KCSefiratHaomerCalculator.m */,
-			);
-			path = Sefira;
-			sourceTree = "<group>";
-		};
-		D74BFBD91ADDB90400DF10AF /* Zmanim */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBDA1ADDB90400DF10AF /* KCComplexZmanimCalendar.h */,
-				D74BFBDB1ADDB90400DF10AF /* KCComplexZmanimCalendar.m */,
-				D74BFBDC1ADDB90400DF10AF /* KCZman.h */,
-				D74BFBDD1ADDB90400DF10AF /* KCZman.m */,
-				D74BFBDE1ADDB90400DF10AF /* KCZmanimCalendar.h */,
-				D74BFBDF1ADDB90400DF10AF /* KCZmanimCalendar.m */,
-			);
-			path = Zmanim;
-			sourceTree = "<group>";
-		};
-		D74BFBE01ADDB90400DF10AF /* Solar */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBE11ADDB90400DF10AF /* KCAstronomicalCalculator.h */,
-				D74BFBE21ADDB90400DF10AF /* KCAstronomicalCalculator.m */,
-				D74BFBE31ADDB90400DF10AF /* KCAstronomicalCalendar.h */,
-				D74BFBE41ADDB90400DF10AF /* KCAstronomicalCalendar.m */,
-				D74BFBE51ADDB90400DF10AF /* KCGeoLocation.h */,
-				D74BFBE61ADDB90400DF10AF /* KCGeoLocation.m */,
-				D74BFBE71ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.h */,
-				D74BFBE81ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.m */,
-				D74BFBE91ADDB90400DF10AF /* Solar.h */,
-			);
-			path = Solar;
-			sourceTree = "<group>";
-		};
-		D74BFBEA1ADDB90400DF10AF /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBEB1ADDB90400DF10AF /* trigonometry.c */,
-				D74BFBEC1ADDB90400DF10AF /* trigonometry.h */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		D74BFBFD1ADDB98500DF10AF /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFBFE1ADDB98500DF10AF /* KCAstronomical.h */,
-				D74BFBFF1ADDB98500DF10AF /* KCBearing.h */,
-				D74BFC001ADDB98500DF10AF /* KCConstants.h */,
-				D74BFC011ADDB98500DF10AF /* KCHebrewYear.h */,
-				D74BFC021ADDB98500DF10AF /* KCJewishHolidays.h */,
-				D74BFC031ADDB98500DF10AF /* KCMolad.h */,
-				D74BFC041ADDB98500DF10AF /* KCParashaReadings.h */,
-				D74BFC051ADDB98500DF10AF /* KCSunCalculationTypes.h */,
-				D74BFC061ADDB98500DF10AF /* KCTractates.h */,
-				D74BFC071ADDB98500DF10AF /* KCZenith.h */,
-				D74BFC081ADDB98500DF10AF /* KCZenithExtended.h */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		D74BFC091ADDB99300DF10AF /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC0A1ADDB99300DF10AF /* Foundation */,
-				D74BFC231ADDB99300DF10AF /* KosherCocoa */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		D74BFC0A1ADDB99300DF10AF /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC0B1ADDB99300DF10AF /* MBCalendarCategories.h */,
-				D74BFC0C1ADDB99300DF10AF /* NSCalendar */,
-				D74BFC191ADDB99300DF10AF /* NSDate */,
-				D74BFC201ADDB99300DF10AF /* NSDateComponents */,
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		D74BFC0C1ADDB99300DF10AF /* NSCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC0D1ADDB99300DF10AF /* NSCalendar+Components.h */,
-				D74BFC0E1ADDB99300DF10AF /* NSCalendar+Components.m */,
-				D74BFC0F1ADDB99300DF10AF /* NSCalendar+DateComparison.h */,
-				D74BFC101ADDB99300DF10AF /* NSCalendar+DateComparison.m */,
-				D74BFC111ADDB99300DF10AF /* NSCalendar+DateManipulation.h */,
-				D74BFC121ADDB99300DF10AF /* NSCalendar+DateManipulation.m */,
-				D74BFC131ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.h */,
-				D74BFC141ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.m */,
-				D74BFC151ADDB99300DF10AF /* NSCalendar+Juncture.h */,
-				D74BFC161ADDB99300DF10AF /* NSCalendar+Juncture.m */,
-				D74BFC171ADDB99300DF10AF /* NSCalendar+Ranges.h */,
-				D74BFC181ADDB99300DF10AF /* NSCalendar+Ranges.m */,
-			);
-			path = NSCalendar;
-			sourceTree = "<group>";
-		};
-		D74BFC191ADDB99300DF10AF /* NSDate */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC1A1ADDB99300DF10AF /* NSDate+Components.h */,
-				D74BFC1B1ADDB99300DF10AF /* NSDate+Components.m */,
-				D74BFC1C1ADDB99300DF10AF /* NSDate+ConvenientDates.h */,
-				D74BFC1D1ADDB99300DF10AF /* NSDate+ConvenientDates.m */,
-				D74BFC1E1ADDB99300DF10AF /* NSDate+Description.h */,
-				D74BFC1F1ADDB99300DF10AF /* NSDate+Description.m */,
-			);
-			path = NSDate;
-			sourceTree = "<group>";
-		};
-		D74BFC201ADDB99300DF10AF /* NSDateComponents */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC211ADDB99300DF10AF /* NSDateComponents+AllComponents.h */,
-				D74BFC221ADDB99300DF10AF /* NSDateComponents+AllComponents.m */,
-			);
-			path = NSDateComponents;
-			sourceTree = "<group>";
-		};
-		D74BFC231ADDB99300DF10AF /* KosherCocoa */ = {
-			isa = PBXGroup;
-			children = (
-				D74BFC241ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.h */,
-				D74BFC251ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m */,
-			);
-			path = KosherCocoa;
 			sourceTree = "<group>";
 		};
 		D74BFC391ADDBE7F00DF10AF /* omer WatchKit Extension */ = {
@@ -568,6 +316,9 @@
 		D79FA93218F1F41800C4A965 = {
 			isa = PBXGroup;
 			children = (
+				D725E3A61AE14DB100224660 /* KosherCocoaKit.framework */,
+				D725E3A21AE14D9F00224660 /* KosherCocoaKit.framework */,
+				D725E39E1AE14D3F00224660 /* KosherCocoaKit.framework */,
 				D79FA94418F1F41800C4A965 /* omer */,
 				D79FA96318F1F41800C4A965 /* omerTests */,
 				D74BFC391ADDBE7F00DF10AF /* omer WatchKit Extension */,
@@ -575,6 +326,7 @@
 				D700DC3F1AE10D8F00763902 /* Omer */,
 				D79FA93D18F1F41800C4A965 /* Frameworks */,
 				D79FA93C18F1F41800C4A965 /* Products */,
+				C625A5E4076187F8C53F7120 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -593,6 +345,8 @@
 		D79FA93D18F1F41800C4A965 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D725E39A1AE14C8C00224660 /* KosherCocoaKit.framework */,
+				D725E3961AE14B3E00224660 /* KosherCocoaKit.framework */,
 				D79FA93E18F1F41800C4A965 /* Foundation.framework */,
 				D79FA94018F1F41800C4A965 /* CoreGraphics.framework */,
 				D79FA94218F1F41800C4A965 /* UIKit.framework */,
@@ -605,16 +359,15 @@
 		D79FA94418F1F41800C4A965 /* omer */ = {
 			isa = PBXGroup;
 			children = (
-				D78CC7B61916DA120050DFE1 /* Controllers */,
-				D79B0A5C190A6C7500241ACE /* Model */,
-				D79B0A5B190A6C1D00241ACE /* resources */,
-				D720410518F69C88007A6830 /* Helpers */,
-				D72040FE18F68B04007A6830 /* lib */,
 				D79FA94D18F1F41800C4A965 /* G2OAppDelegate.h */,
 				D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */,
 				D79FA95018F1F41800C4A965 /* Main.storyboard */,
 				D74BFC311ADDBC2000DF10AF /* Launch.storyboard */,
 				D79FA95618F1F41800C4A965 /* Images.xcassets */,
+				D78CC7B61916DA120050DFE1 /* Controllers */,
+				D79B0A5C190A6C7500241ACE /* Model */,
+				D79B0A5B190A6C1D00241ACE /* resources */,
+				D720410518F69C88007A6830 /* Helpers */,
 				D79FA94518F1F41800C4A965 /* Supporting Files */,
 			);
 			path = omer;
@@ -676,6 +429,7 @@
 				D74BFC341ADDBE7F00DF10AF /* Sources */,
 				D74BFC351ADDBE7F00DF10AF /* Frameworks */,
 				D74BFC361ADDBE7F00DF10AF /* Resources */,
+				D725E3A91AE14DB200224660 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -710,6 +464,7 @@
 				D79FA93818F1F41800C4A965 /* Frameworks */,
 				D79FA93918F1F41800C4A965 /* Resources */,
 				D74BFC581ADDBE8000DF10AF /* Embed App Extensions */,
+				D725E3A11AE14D3F00224660 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -863,36 +618,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D74BFC291ADDB99300DF10AF /* NSCalendar+hebrewYearTypes.m in Sources */,
-				D74BFBEF1ADDB90400DF10AF /* KCDaf.m in Sources */,
 				D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */,
-				D74BFBF31ADDB90400DF10AF /* KCSefiraFormatter.m in Sources */,
 				D79FA94F18F1F41800C4A965 /* G2OAppDelegate.m in Sources */,
-				D74BFC2E1ADDB99300DF10AF /* NSDate+Description.m in Sources */,
-				D74BFBFC1ADDB90400DF10AF /* trigonometry.c in Sources */,
-				D74BFC2C1ADDB99300DF10AF /* NSDate+Components.m in Sources */,
 				D79FA94B18F1F41800C4A965 /* main.m in Sources */,
-				D74BFBFB1ADDB90400DF10AF /* KCSunriseAndSunsetCalculator.m in Sources */,
-				D74BFBF81ADDB90400DF10AF /* KCAstronomicalCalculator.m in Sources */,
-				D74BFBF71ADDB90400DF10AF /* KCZmanimCalendar.m in Sources */,
-				D74BFBF61ADDB90400DF10AF /* KCZman.m in Sources */,
-				D74BFBED1ADDB90400DF10AF /* KCJewishCalendar.m in Sources */,
-				D74BFC271ADDB99300DF10AF /* NSCalendar+DateComparison.m in Sources */,
-				D74BFBF01ADDB90400DF10AF /* KCDafYomiCalculator.m in Sources */,
-				D74BFC2B1ADDB99300DF10AF /* NSCalendar+Ranges.m in Sources */,
-				D74BFC281ADDB99300DF10AF /* NSCalendar+DateManipulation.m in Sources */,
-				D74BFC2F1ADDB99300DF10AF /* NSDateComponents+AllComponents.m in Sources */,
-				D74BFBFA1ADDB90400DF10AF /* KCGeoLocation.m in Sources */,
-				D74BFC261ADDB99300DF10AF /* NSCalendar+Components.m in Sources */,
-				D74BFBEE1ADDB90400DF10AF /* KCJewishHoliday.m in Sources */,
-				D74BFC2A1ADDB99300DF10AF /* NSCalendar+Juncture.m in Sources */,
-				D74BFC2D1ADDB99300DF10AF /* NSDate+ConvenientDates.m in Sources */,
-				D74BFBF21ADDB90400DF10AF /* KCParashatHashavuaCalculator.m in Sources */,
-				D74BFBF91ADDB90400DF10AF /* KCAstronomicalCalendar.m in Sources */,
-				D74BFBF41ADDB90400DF10AF /* KCSefiratHaomerCalculator.m in Sources */,
-				D74BFBF11ADDB90400DF10AF /* KCParasha.m in Sources */,
-				D74BFBF51ADDB90400DF10AF /* KCComplexZmanimCalendar.m in Sources */,
-				D74BFC301ADDB99300DF10AF /* KCAstronomicalCalendar+DateManipulation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,11 +703,16 @@
 /* Begin XCBuildConfiguration section */
 		D700DC4B1AE10D8F00763902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -996,12 +729,17 @@
 		};
 		D700DC4C1AE10D8F00763902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Omer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -1062,6 +800,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1084,6 +826,10 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "omer WatchKit Extension/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
@@ -1166,13 +912,20 @@
 		};
 		D79FA96E18F1F41800C4A965 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/yaakov/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
 				INFOPLIST_FILE = "omer/omer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "32c4211d-a057-408f-bf12-b4031b085fc2";
 				WRAPPER_EXTENSION = app;
@@ -1181,13 +934,20 @@
 		};
 		D79FA96F18F1F41800C4A965 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/yaakov/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
 				INFOPLIST_FILE = "omer/omer-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "32c4211d-a057-408f-bf12-b4031b085fc2";
 				WRAPPER_EXTENSION = app;
