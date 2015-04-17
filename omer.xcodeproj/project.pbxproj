@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D700DC351AE0F33600763902 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */; };
-		D700DC371AE0FDEB00763902 /* corn.mov in Resources */ = {isa = PBXBuildFile; fileRef = D700DC361AE0FDEB00763902 /* corn.mov */; };
 		D700DC3E1AE10D8F00763902 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D700DC3D1AE10D8F00763902 /* NotificationCenter.framework */; };
 		D700DC441AE10D8F00763902 /* G2OTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D700DC431AE10D8F00763902 /* G2OTodayViewController.m */; };
 		D700DC461AE10D8F00763902 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D700DC451AE10D8F00763902 /* MainInterface.storyboard */; };
@@ -113,7 +112,6 @@
 
 /* Begin PBXFileReference section */
 		D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "opensanshebrew-light-webfont.ttf"; sourceTree = "<group>"; };
-		D700DC361AE0FDEB00763902 /* corn.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = corn.mov; sourceTree = "<group>"; };
 		D700DC3C1AE10D8F00763902 /* Omer.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Omer.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D700DC3D1AE10D8F00763902 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		D700DC411AE10D8F00763902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -301,7 +299,6 @@
 				D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */,
 				D79B0A55190A540000241ACE /* Icon-60@2x.png */,
 				D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */,
-				D700DC361AE0FDEB00763902 /* corn.mov */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -576,7 +573,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D700DC371AE0FDEB00763902 /* corn.mov in Resources */,
 				D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */,
 				D79FA94918F1F41800C4A965 /* InfoPlist.strings in Resources */,
 				D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */,
