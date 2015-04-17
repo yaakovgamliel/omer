@@ -7,17 +7,27 @@
 		<key>Glance - omer WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Notification - omer WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<key>Omer app.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Omer.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>omer WatchKit App.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>omer.xcscheme</key>
 		<dict>
@@ -27,6 +37,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D700DC3B1AE10D8F00763902</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D74BFC491ADDBE8000DF10AF</key>
 		<dict>
 			<key>primary</key>

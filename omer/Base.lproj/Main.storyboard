@@ -4,6 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="opensanshebrew-light-webfont.ttf">
+            <string>OpenSansHebrew-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -20,17 +25,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bkg" translatesAutoresizingMaskIntoConstraints="NO" id="Kcw-tr-YoC">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qac-Nu-9Me">
-                                <rect key="frame" x="36" y="46" width="247" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="6Rz-ZT-8t3"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <color key="textColor" red="1" green="0.6154151815064115" blue="0.16769610910206556" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfB-9W-L7f">
-                                <rect key="frame" x="55" y="154" width="209" height="171"/>
+                                <rect key="frame" x="55" y="199" width="209" height="171"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="171" id="oop-lL-hH5"/>
                                 </constraints>
@@ -47,36 +43,63 @@
                                 <color key="textColor" red="0.92549026012420654" green="0.57647061347961426" blue="0.21568629145622253" alpha="0.41999999999999998" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeX-R0-sua">
-                                <rect key="frame" x="159" y="351" width="0.0" height="0.0"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2w 5 d" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MeX-R0-sua">
+                                <rect key="frame" x="132" y="400" width="58" height="28"/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="20"/>
                                 <color key="textColor" red="0.95294123890000004" green="0.64705884459999996" blue="0.2078431547" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smf-rX-Bg6">
+                                <rect key="frame" x="22" y="45" width="276" height="98"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ברוך אתה ה׳ אלקינו מלך העולם אשר קדשנו במצוותיו וצונו על ספירת העומר" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWt-lp-Zkg">
+                                        <rect key="frame" x="8" y="8" width="260" height="82"/>
+                                        <fontDescription key="fontDescription" name="OpenSansHebrew-Light" family="Open Sans Hebrew" pointSize="20"/>
+                                        <color key="textColor" red="0.80784313725490198" green="0.45098039215686275" blue="0.10980392156862745" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.70000000000000007" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="CWt-lp-Zkg" firstAttribute="leading" secondItem="smf-rX-Bg6" secondAttribute="leading" constant="8" id="1DI-8T-Hnp"/>
+                                    <constraint firstItem="CWt-lp-Zkg" firstAttribute="top" secondItem="smf-rX-Bg6" secondAttribute="top" constant="8" id="9Fq-5K-KAX"/>
+                                    <constraint firstItem="CWt-lp-Zkg" firstAttribute="bottom" secondItem="smf-rX-Bg6" secondAttribute="bottomMargin" id="aUq-s0-gAK"/>
+                                    <constraint firstAttribute="trailing" secondItem="CWt-lp-Zkg" secondAttribute="trailing" constant="8" id="c6T-JE-KNM"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.83439829892448514" blue="0.036370119813530111" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Kcw-tr-YoC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="16D-tO-wO2"/>
                             <constraint firstAttribute="trailing" secondItem="Kcw-tr-YoC" secondAttribute="trailing" id="45Z-fj-V2G"/>
-                            <constraint firstItem="Qac-Nu-9Me" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="26" id="5YK-z8-zmL"/>
-                            <constraint firstItem="ZfB-9W-L7f" firstAttribute="top" secondItem="Qac-Nu-9Me" secondAttribute="bottom" constant="64" id="6Zn-Yy-CDl"/>
-                            <constraint firstItem="Qac-Nu-9Me" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="36" id="FmS-Ff-7dT"/>
                             <constraint firstItem="4S6-EB-Dqv" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="72" id="QTC-Zh-JLM"/>
+                            <constraint firstItem="smf-rX-Bg6" firstAttribute="centerX" secondItem="Kcw-tr-YoC" secondAttribute="centerX" id="UHr-PM-4Be"/>
+                            <constraint firstItem="smf-rX-Bg6" firstAttribute="top" secondItem="ZfB-9W-L7f" secondAttribute="bottom" constant="-325" id="W4s-a1-m56"/>
                             <constraint firstAttribute="trailing" secondItem="4S6-EB-Dqv" secondAttribute="trailing" constant="74" id="WGb-y8-rhP"/>
                             <constraint firstItem="ZfB-9W-L7f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="39" id="XSR-bb-xBC"/>
                             <constraint firstItem="4S6-EB-Dqv" firstAttribute="bottom" secondItem="Kcw-tr-YoC" secondAttribute="bottom" id="a4d-7G-cre"/>
-                            <constraint firstItem="MeX-R0-sua" firstAttribute="top" secondItem="ZfB-9W-L7f" secondAttribute="bottom" constant="26" id="mfg-30-Wfz"/>
+                            <constraint firstItem="smf-rX-Bg6" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="6" id="f17-3r-7Eg"/>
+                            <constraint firstItem="smf-rX-Bg6" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="25" id="il6-1U-djs"/>
+                            <constraint firstItem="MeX-R0-sua" firstAttribute="top" secondItem="ZfB-9W-L7f" secondAttribute="bottom" constant="30" id="mfg-30-Wfz"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ZfB-9W-L7f" secondAttribute="trailing" constant="40" id="mpm-LZ-oLm"/>
                             <constraint firstItem="Kcw-tr-YoC" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="oFi-qN-k1h"/>
-                            <constraint firstItem="4S6-EB-Dqv" firstAttribute="centerX" secondItem="Qac-Nu-9Me" secondAttribute="centerX" id="r70-JI-wlh"/>
-                            <constraint firstItem="ZfB-9W-L7f" firstAttribute="centerX" secondItem="MeX-R0-sua" secondAttribute="centerX" id="rik-6i-bjs"/>
+                            <constraint firstItem="ZfB-9W-L7f" firstAttribute="centerX" secondItem="MeX-R0-sua" secondAttribute="centerX" constant="-1" id="rik-6i-bjs"/>
                             <constraint firstAttribute="bottom" secondItem="4S6-EB-Dqv" secondAttribute="bottom" id="vWs-lX-Egj"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
                         <outlet property="counterLabel" destination="ZfB-9W-L7f" id="wSY-dG-u9w"/>
                         <outlet property="dayWeekCountLabel" destination="MeX-R0-sua" id="rjH-iQ-oXU"/>
-                        <outlet property="testlabel" destination="Qac-Nu-9Me" id="IBP-sk-amn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
