@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D700DC351AE0F33600763902 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */; };
-		D7159C721AE84F8500C7C8FE /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
-		D7159C731AE84F9500C7C8FE /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
+		D748B0101AE921AB00DE6E66 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
+		D748B0111AE921B900DE6E66 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
 		D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC311ADDBC2000DF10AF /* Launch.storyboard */; };
 		D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */; };
 		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
@@ -172,7 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7159C721AE84F8500C7C8FE /* KosherCocoaKit.framework in Frameworks */,
+				D748B0101AE921AB00DE6E66 /* KosherCocoaKit.framework in Frameworks */,
 				D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */,
 				D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */,
 				D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
@@ -208,7 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7159C731AE84F9500C7C8FE /* KosherCocoaKit.framework in Frameworks */,
+				D748B0111AE921B900DE6E66 /* KosherCocoaKit.framework in Frameworks */,
 				D7B5D0981AE5BBBA00AB810B /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
