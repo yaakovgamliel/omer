@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KosherCocoaKit.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Omer app.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>omer extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>omer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,12 +27,57 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>D700DC3B1AE10D8F00763902</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D74BFC491ADDBE8000DF10AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>D79FA93A18F1F41800C4A965</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>D79FA95B18F1F41800C4A965</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7AC2E4E1AE2E81B0042AD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7AC2E581AE2E81B0042AD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7AC2EAC1AE2EC250042AD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7AC2EB61AE2EC250042AD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7AC2ED11AE2ED5A0042AD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7AC2EDB1AE2ED5A0042AD77</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D7B5D0961AE5BBBA00AB810B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

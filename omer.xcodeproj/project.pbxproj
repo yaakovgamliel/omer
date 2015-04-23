@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410018F68B46007A6830 /* KKDateFormatter.m */; };
-		D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410118F68B46007A6830 /* KKHebrewCalendar.m */; };
-		D720410818F69CBF007A6830 /* Sfirat.m in Sources */ = {isa = PBXBuildFile; fileRef = D720410718F69CBF007A6830 /* Sfirat.m */; };
-		D78CC7B91916DA670050DFE1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* ViewController.m */; };
+		D700DC351AE0F33600763902 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */; };
+		D7159C721AE84F8500C7C8FE /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
+		D7159C731AE84F9500C7C8FE /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
+		D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC311ADDBC2000DF10AF /* Launch.storyboard */; };
+		D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */; };
 		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
 		D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94018F1F41800C4A965 /* CoreGraphics.framework */; };
 		D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
 		D79FA94918F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA94718F1F41800C4A965 /* InfoPlist.strings */; };
 		D79FA94B18F1F41800C4A965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94A18F1F41800C4A965 /* main.m */; };
-		D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94E18F1F41800C4A965 /* AppDelegate.m */; };
+		D79FA94F18F1F41800C4A965 /* G2OAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */; };
 		D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95018F1F41800C4A965 /* Main.storyboard */; };
 		D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79FA95618F1F41800C4A965 /* Images.xcassets */; };
 		D79FA95E18F1F41800C4A965 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA95D18F1F41800C4A965 /* XCTest.framework */; };
@@ -24,6 +25,36 @@
 		D79FA96018F1F41800C4A965 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA94218F1F41800C4A965 /* UIKit.framework */; };
 		D79FA96818F1F41800C4A965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79FA96618F1F41800C4A965 /* InfoPlist.strings */; };
 		D79FA96A18F1F41800C4A965 /* omerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79FA96918F1F41800C4A965 /* omerTests.m */; };
+		D7AC2ED71AE2ED5A0042AD77 /* KosherCocoaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2ED61AE2ED5A0042AD77 /* KosherCocoaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7AC2EDD1AE2ED5B0042AD77 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AC2ED21AE2ED5A0042AD77 /* KosherCocoaKit.framework */; };
+		D7AC2EE61AE2ED5B0042AD77 /* KosherCocoaKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EE51AE2ED5B0042AD77 /* KosherCocoaKitTests.m */; };
+		D7AC2F081AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EF11AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7AC2F091AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EF21AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.m */; };
+		D7AC2F0A1AE2ED7A0042AD77 /* MBCalendarCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EF31AE2ED7A0042AD77 /* MBCalendarCategories.h */; };
+		D7AC2F0B1AE2ED7A0042AD77 /* NSCalendar+Components.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EF41AE2ED7A0042AD77 /* NSCalendar+Components.h */; };
+		D7AC2F0C1AE2ED7A0042AD77 /* NSCalendar+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EF51AE2ED7A0042AD77 /* NSCalendar+Components.m */; };
+		D7AC2F0D1AE2ED7A0042AD77 /* NSCalendar+DateComparison.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EF61AE2ED7A0042AD77 /* NSCalendar+DateComparison.h */; };
+		D7AC2F0E1AE2ED7A0042AD77 /* NSCalendar+DateComparison.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EF71AE2ED7A0042AD77 /* NSCalendar+DateComparison.m */; };
+		D7AC2F0F1AE2ED7A0042AD77 /* NSCalendar+DateManipulation.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EF81AE2ED7A0042AD77 /* NSCalendar+DateManipulation.h */; };
+		D7AC2F101AE2ED7A0042AD77 /* NSCalendar+DateManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EF91AE2ED7A0042AD77 /* NSCalendar+DateManipulation.m */; };
+		D7AC2F111AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EFA1AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.h */; };
+		D7AC2F121AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EFB1AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.m */; };
+		D7AC2F131AE2ED7A0042AD77 /* NSCalendar+Juncture.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EFC1AE2ED7A0042AD77 /* NSCalendar+Juncture.h */; };
+		D7AC2F141AE2ED7A0042AD77 /* NSCalendar+Juncture.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EFD1AE2ED7A0042AD77 /* NSCalendar+Juncture.m */; };
+		D7AC2F151AE2ED7A0042AD77 /* NSCalendar+Ranges.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2EFE1AE2ED7A0042AD77 /* NSCalendar+Ranges.h */; };
+		D7AC2F161AE2ED7A0042AD77 /* NSCalendar+Ranges.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2EFF1AE2ED7A0042AD77 /* NSCalendar+Ranges.m */; };
+		D7AC2F171AE2ED7A0042AD77 /* NSDate+Components.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2F001AE2ED7A0042AD77 /* NSDate+Components.h */; };
+		D7AC2F181AE2ED7A0042AD77 /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2F011AE2ED7A0042AD77 /* NSDate+Components.m */; };
+		D7AC2F191AE2ED7A0042AD77 /* NSDate+ConvenientDates.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2F021AE2ED7A0042AD77 /* NSDate+ConvenientDates.h */; };
+		D7AC2F1A1AE2ED7A0042AD77 /* NSDate+ConvenientDates.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2F031AE2ED7A0042AD77 /* NSDate+ConvenientDates.m */; };
+		D7AC2F1B1AE2ED7A0042AD77 /* NSDate+Description.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2F041AE2ED7A0042AD77 /* NSDate+Description.h */; };
+		D7AC2F1C1AE2ED7A0042AD77 /* NSDate+Description.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2F051AE2ED7A0042AD77 /* NSDate+Description.m */; };
+		D7AC2F1D1AE2ED7A0042AD77 /* NSDateComponents+AllComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = D7AC2F061AE2ED7A0042AD77 /* NSDateComponents+AllComponents.h */; };
+		D7AC2F1E1AE2ED7A0042AD77 /* NSDateComponents+AllComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AC2F071AE2ED7A0042AD77 /* NSDateComponents+AllComponents.m */; };
+		D7B5D0981AE5BBBA00AB810B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D700DC3D1AE10D8F00763902 /* NotificationCenter.framework */; };
+		D7B5D09E1AE5BBBA00AB810B /* G2OTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */; };
+		D7B5D0A31AE5BBBA00AB810B /* omer extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7B5D0971AE5BBBA00AB810B /* omer extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D7B5D0A81AE5BBDD00AB810B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B5D0921AE5BB5500AB810B /* MainInterface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,20 +65,53 @@
 			remoteGlobalIDString = D79FA93A18F1F41800C4A965;
 			remoteInfo = omer;
 		};
+		D7AC2EDE1AE2ED5B0042AD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7AC2ED11AE2ED5A0042AD77;
+			remoteInfo = KosherCocoaKit;
+		};
+		D7AC2EE01AE2ED5B0042AD77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D79FA93A18F1F41800C4A965;
+			remoteInfo = omer;
+		};
+		D7B5D0A11AE5BBBA00AB810B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D79FA93318F1F41800C4A965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7B5D0961AE5BBBA00AB810B;
+			remoteInfo = "omer extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D7B5D0A71AE5BBBA00AB810B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7B5D0A31AE5BBBA00AB810B /* omer extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		D72040FF18F68B46007A6830 /* KKHebrewCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKHebrewCalendar.h; sourceTree = "<group>"; };
-		D720410018F68B46007A6830 /* KKDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDateFormatter.m; sourceTree = "<group>"; };
-		D720410118F68B46007A6830 /* KKHebrewCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKHebrewCalendar.m; sourceTree = "<group>"; };
-		D720410218F68B46007A6830 /* KKDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDateFormatter.h; sourceTree = "<group>"; };
-		D720410618F69CBF007A6830 /* Sfirat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sfirat.h; sourceTree = "<group>"; };
-		D720410718F69CBF007A6830 /* Sfirat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sfirat.m; sourceTree = "<group>"; };
-		D78CC7B71916DA670050DFE1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D78CC7B81916DA670050DFE1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D79B0A55190A540000241ACE /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
-		D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
-		D79B0A58190A545C00241ACE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "opensanshebrew-light-webfont.ttf"; sourceTree = "<group>"; };
+		D700DC3D1AE10D8F00763902 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KosherCocoaKit.framework; path = ../../../Desktop/KosherCocoaKit.framework; sourceTree = "<group>"; };
+		D74BFC321ADDBC2000DF10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Launch.storyboard; sourceTree = "<group>"; };
+		D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = G2OMainViewController.m; sourceTree = "<group>"; };
+		D78CC7B81916DA670050DFE1 /* G2OMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = G2OMainViewController.h; sourceTree = "<group>"; };
+		D79B0A55190A540000241ACE /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../Icon-60@2x.png"; sourceTree = "<group>"; };
+		D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "../../Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		D79B0A58190A545C00241ACE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../Icon-Small@2x.png"; sourceTree = "<group>"; };
 		D79FA93B18F1F41800C4A965 /* omer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79FA93E18F1F41800C4A965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D79FA94018F1F41800C4A965 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,8 +120,8 @@
 		D79FA94818F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79FA94A18F1F41800C4A965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D79FA94C18F1F41800C4A965 /* omer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "omer-Prefix.pch"; sourceTree = "<group>"; };
-		D79FA94D18F1F41800C4A965 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D79FA94E18F1F41800C4A965 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D79FA94D18F1F41800C4A965 /* G2OAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OAppDelegate.h; sourceTree = "<group>"; };
+		D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OAppDelegate.m; sourceTree = "<group>"; };
 		D79FA95118F1F41800C4A965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D79FA95618F1F41800C4A965 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D79FA95C18F1F41800C4A965 /* omerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +129,42 @@
 		D79FA96518F1F41800C4A965 /* omerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "omerTests-Info.plist"; sourceTree = "<group>"; };
 		D79FA96718F1F41800C4A965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D79FA96918F1F41800C4A965 /* omerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = omerTests.m; sourceTree = "<group>"; };
+		D7AC2ED21AE2ED5A0042AD77 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KosherCocoaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC2ED51AE2ED5A0042AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AC2ED61AE2ED5A0042AD77 /* KosherCocoaKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KosherCocoaKit.h; sourceTree = "<group>"; };
+		D7AC2EDC1AE2ED5A0042AD77 /* KosherCocoaKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KosherCocoaKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AC2EE41AE2ED5B0042AD77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7AC2EE51AE2ED5B0042AD77 /* KosherCocoaKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KosherCocoaKitTests.m; sourceTree = "<group>"; };
+		D7AC2EF11AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSefiratHaomerCalculator.h; sourceTree = "<group>"; };
+		D7AC2EF21AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSefiratHaomerCalculator.m; sourceTree = "<group>"; };
+		D7AC2EF31AE2ED7A0042AD77 /* MBCalendarCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCalendarCategories.h; sourceTree = "<group>"; };
+		D7AC2EF41AE2ED7A0042AD77 /* NSCalendar+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Components.h"; sourceTree = "<group>"; };
+		D7AC2EF51AE2ED7A0042AD77 /* NSCalendar+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Components.m"; sourceTree = "<group>"; };
+		D7AC2EF61AE2ED7A0042AD77 /* NSCalendar+DateComparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateComparison.h"; sourceTree = "<group>"; };
+		D7AC2EF71AE2ED7A0042AD77 /* NSCalendar+DateComparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateComparison.m"; sourceTree = "<group>"; };
+		D7AC2EF81AE2ED7A0042AD77 /* NSCalendar+DateManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+DateManipulation.h"; sourceTree = "<group>"; };
+		D7AC2EF91AE2ED7A0042AD77 /* NSCalendar+DateManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+DateManipulation.m"; sourceTree = "<group>"; };
+		D7AC2EFA1AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+hebrewYearTypes.h"; sourceTree = "<group>"; };
+		D7AC2EFB1AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+hebrewYearTypes.m"; sourceTree = "<group>"; };
+		D7AC2EFC1AE2ED7A0042AD77 /* NSCalendar+Juncture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Juncture.h"; sourceTree = "<group>"; };
+		D7AC2EFD1AE2ED7A0042AD77 /* NSCalendar+Juncture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Juncture.m"; sourceTree = "<group>"; };
+		D7AC2EFE1AE2ED7A0042AD77 /* NSCalendar+Ranges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Ranges.h"; sourceTree = "<group>"; };
+		D7AC2EFF1AE2ED7A0042AD77 /* NSCalendar+Ranges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Ranges.m"; sourceTree = "<group>"; };
+		D7AC2F001AE2ED7A0042AD77 /* NSDate+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Components.h"; sourceTree = "<group>"; };
+		D7AC2F011AE2ED7A0042AD77 /* NSDate+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Components.m"; sourceTree = "<group>"; };
+		D7AC2F021AE2ED7A0042AD77 /* NSDate+ConvenientDates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ConvenientDates.h"; sourceTree = "<group>"; };
+		D7AC2F031AE2ED7A0042AD77 /* NSDate+ConvenientDates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ConvenientDates.m"; sourceTree = "<group>"; };
+		D7AC2F041AE2ED7A0042AD77 /* NSDate+Description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Description.h"; sourceTree = "<group>"; };
+		D7AC2F051AE2ED7A0042AD77 /* NSDate+Description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Description.m"; sourceTree = "<group>"; };
+		D7AC2F061AE2ED7A0042AD77 /* NSDateComponents+AllComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateComponents+AllComponents.h"; sourceTree = "<group>"; };
+		D7AC2F071AE2ED7A0042AD77 /* NSDateComponents+AllComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateComponents+AllComponents.m"; sourceTree = "<group>"; };
+		D7B5D0921AE5BB5500AB810B /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = MainInterface.storyboard; path = ../MainInterface.storyboard; sourceTree = "<group>"; };
+		D7B5D0971AE5BBBA00AB810B /* omer extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "omer extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7B5D09B1AE5BBBA00AB810B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B5D09C1AE5BBBA00AB810B /* G2OTodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OTodayViewController.h; sourceTree = "<group>"; };
+		D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OTodayViewController.m; sourceTree = "<group>"; };
+		DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7159C721AE84F8500C7C8FE /* KosherCocoaKit.framework in Frameworks */,
 				D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */,
 				D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */,
 				D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
@@ -88,25 +189,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7AC2ECE1AE2ED5A0042AD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC2ED91AE2ED5A0042AD77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC2EDD1AE2ED5B0042AD77 /* KosherCocoaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B5D0941AE5BBBA00AB810B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7159C731AE84F9500C7C8FE /* KosherCocoaKit.framework in Frameworks */,
+				D7B5D0981AE5BBBA00AB810B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D72040FE18F68B04007A6830 /* lib */ = {
+		C625A5E4076187F8C53F7120 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D72040FF18F68B46007A6830 /* KKHebrewCalendar.h */,
-				D720410218F68B46007A6830 /* KKDateFormatter.h */,
-				D720410018F68B46007A6830 /* KKDateFormatter.m */,
-				D720410118F68B46007A6830 /* KKHebrewCalendar.m */,
+				FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */,
+				DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */,
 			);
-			path = lib;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D720410518F69C88007A6830 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				D720410618F69CBF007A6830 /* Sfirat.h */,
-				D720410718F69CBF007A6830 /* Sfirat.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -114,8 +235,8 @@
 		D78CC7B61916DA120050DFE1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D78CC7B71916DA670050DFE1 /* ViewController.m */,
-				D78CC7B81916DA670050DFE1 /* ViewController.h */,
+				D78CC7B81916DA670050DFE1 /* G2OMainViewController.h */,
+				D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -123,6 +244,10 @@
 		D79B0A5B190A6C1D00241ACE /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				D79B0A58190A545C00241ACE /* Icon-Small@2x.png */,
+				D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */,
+				D79B0A55190A540000241ACE /* Icon-60@2x.png */,
+				D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */,
 			);
 			path = resources;
 			sourceTree = "<group>";
@@ -137,13 +262,14 @@
 		D79FA93218F1F41800C4A965 = {
 			isa = PBXGroup;
 			children = (
-				D79B0A58190A545C00241ACE /* Icon-Small@2x.png */,
-				D79B0A56190A541400241ACE /* Icon-Spotlight-40@2x.png */,
-				D79B0A55190A540000241ACE /* Icon-60@2x.png */,
 				D79FA94418F1F41800C4A965 /* omer */,
 				D79FA96318F1F41800C4A965 /* omerTests */,
+				D7AC2ED31AE2ED5A0042AD77 /* KosherCocoaKit */,
+				D7AC2EE21AE2ED5B0042AD77 /* KosherCocoaKitTests */,
+				D7B5D0991AE5BBBA00AB810B /* omer extension */,
 				D79FA93D18F1F41800C4A965 /* Frameworks */,
 				D79FA93C18F1F41800C4A965 /* Products */,
+				C625A5E4076187F8C53F7120 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +278,9 @@
 			children = (
 				D79FA93B18F1F41800C4A965 /* omer.app */,
 				D79FA95C18F1F41800C4A965 /* omerTests.xctest */,
+				D7AC2ED21AE2ED5A0042AD77 /* KosherCocoaKit.framework */,
+				D7AC2EDC1AE2ED5A0042AD77 /* KosherCocoaKitTests.xctest */,
+				D7B5D0971AE5BBBA00AB810B /* omer extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,10 +288,12 @@
 		D79FA93D18F1F41800C4A965 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */,
 				D79FA93E18F1F41800C4A965 /* Foundation.framework */,
 				D79FA94018F1F41800C4A965 /* CoreGraphics.framework */,
 				D79FA94218F1F41800C4A965 /* UIKit.framework */,
 				D79FA95D18F1F41800C4A965 /* XCTest.framework */,
+				D700DC3D1AE10D8F00763902 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,15 +301,15 @@
 		D79FA94418F1F41800C4A965 /* omer */ = {
 			isa = PBXGroup;
 			children = (
+				D79FA94D18F1F41800C4A965 /* G2OAppDelegate.h */,
+				D79FA94E18F1F41800C4A965 /* G2OAppDelegate.m */,
+				D79FA95018F1F41800C4A965 /* Main.storyboard */,
+				D74BFC311ADDBC2000DF10AF /* Launch.storyboard */,
+				D79FA95618F1F41800C4A965 /* Images.xcassets */,
 				D78CC7B61916DA120050DFE1 /* Controllers */,
 				D79B0A5C190A6C7500241ACE /* Model */,
 				D79B0A5B190A6C1D00241ACE /* resources */,
 				D720410518F69C88007A6830 /* Helpers */,
-				D72040FE18F68B04007A6830 /* lib */,
-				D79FA94D18F1F41800C4A965 /* AppDelegate.h */,
-				D79FA94E18F1F41800C4A965 /* AppDelegate.m */,
-				D79FA95018F1F41800C4A965 /* Main.storyboard */,
-				D79FA95618F1F41800C4A965 /* Images.xcassets */,
 				D79FA94518F1F41800C4A965 /* Supporting Files */,
 			);
 			path = omer;
@@ -213,7 +344,106 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D7AC2ED31AE2ED5A0042AD77 /* KosherCocoaKit */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC2EF11AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.h */,
+				D7AC2EF21AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.m */,
+				D7AC2EF31AE2ED7A0042AD77 /* MBCalendarCategories.h */,
+				D7AC2EF41AE2ED7A0042AD77 /* NSCalendar+Components.h */,
+				D7AC2EF51AE2ED7A0042AD77 /* NSCalendar+Components.m */,
+				D7AC2EF61AE2ED7A0042AD77 /* NSCalendar+DateComparison.h */,
+				D7AC2EF71AE2ED7A0042AD77 /* NSCalendar+DateComparison.m */,
+				D7AC2EF81AE2ED7A0042AD77 /* NSCalendar+DateManipulation.h */,
+				D7AC2EF91AE2ED7A0042AD77 /* NSCalendar+DateManipulation.m */,
+				D7AC2EFA1AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.h */,
+				D7AC2EFB1AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.m */,
+				D7AC2EFC1AE2ED7A0042AD77 /* NSCalendar+Juncture.h */,
+				D7AC2EFD1AE2ED7A0042AD77 /* NSCalendar+Juncture.m */,
+				D7AC2EFE1AE2ED7A0042AD77 /* NSCalendar+Ranges.h */,
+				D7AC2EFF1AE2ED7A0042AD77 /* NSCalendar+Ranges.m */,
+				D7AC2F001AE2ED7A0042AD77 /* NSDate+Components.h */,
+				D7AC2F011AE2ED7A0042AD77 /* NSDate+Components.m */,
+				D7AC2F021AE2ED7A0042AD77 /* NSDate+ConvenientDates.h */,
+				D7AC2F031AE2ED7A0042AD77 /* NSDate+ConvenientDates.m */,
+				D7AC2F041AE2ED7A0042AD77 /* NSDate+Description.h */,
+				D7AC2F051AE2ED7A0042AD77 /* NSDate+Description.m */,
+				D7AC2F061AE2ED7A0042AD77 /* NSDateComponents+AllComponents.h */,
+				D7AC2F071AE2ED7A0042AD77 /* NSDateComponents+AllComponents.m */,
+				D7AC2ED61AE2ED5A0042AD77 /* KosherCocoaKit.h */,
+				D7AC2ED41AE2ED5A0042AD77 /* Supporting Files */,
+			);
+			path = KosherCocoaKit;
+			sourceTree = "<group>";
+		};
+		D7AC2ED41AE2ED5A0042AD77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC2ED51AE2ED5A0042AD77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7AC2EE21AE2ED5B0042AD77 /* KosherCocoaKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC2EE51AE2ED5B0042AD77 /* KosherCocoaKitTests.m */,
+				D7AC2EE31AE2ED5B0042AD77 /* Supporting Files */,
+			);
+			path = KosherCocoaKitTests;
+			sourceTree = "<group>";
+		};
+		D7AC2EE31AE2ED5B0042AD77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7AC2EE41AE2ED5B0042AD77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7B5D0991AE5BBBA00AB810B /* omer extension */ = {
+			isa = PBXGroup;
+			children = (
+				D7B5D09C1AE5BBBA00AB810B /* G2OTodayViewController.h */,
+				D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */,
+				D7B5D0921AE5BB5500AB810B /* MainInterface.storyboard */,
+				D7B5D09A1AE5BBBA00AB810B /* Supporting Files */,
+			);
+			path = "omer extension";
+			sourceTree = "<group>";
+		};
+		D7B5D09A1AE5BBBA00AB810B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7B5D09B1AE5BBBA00AB810B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D7AC2ECF1AE2ED5A0042AD77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC2F191AE2ED7A0042AD77 /* NSDate+ConvenientDates.h in Headers */,
+				D7AC2ED71AE2ED5A0042AD77 /* KosherCocoaKit.h in Headers */,
+				D7AC2F131AE2ED7A0042AD77 /* NSCalendar+Juncture.h in Headers */,
+				D7AC2F0B1AE2ED7A0042AD77 /* NSCalendar+Components.h in Headers */,
+				D7AC2F1B1AE2ED7A0042AD77 /* NSDate+Description.h in Headers */,
+				D7AC2F111AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.h in Headers */,
+				D7AC2F081AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.h in Headers */,
+				D7AC2F151AE2ED7A0042AD77 /* NSCalendar+Ranges.h in Headers */,
+				D7AC2F0D1AE2ED7A0042AD77 /* NSCalendar+DateComparison.h in Headers */,
+				D7AC2F0F1AE2ED7A0042AD77 /* NSCalendar+DateManipulation.h in Headers */,
+				D7AC2F0A1AE2ED7A0042AD77 /* MBCalendarCategories.h in Headers */,
+				D7AC2F1D1AE2ED7A0042AD77 /* NSDateComponents+AllComponents.h in Headers */,
+				D7AC2F171AE2ED7A0042AD77 /* NSDate+Components.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		D79FA93A18F1F41800C4A965 /* omer */ = {
@@ -223,10 +453,12 @@
 				D79FA93718F1F41800C4A965 /* Sources */,
 				D79FA93818F1F41800C4A965 /* Frameworks */,
 				D79FA93918F1F41800C4A965 /* Resources */,
+				D7B5D0A71AE5BBBA00AB810B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D7B5D0A21AE5BBBA00AB810B /* PBXTargetDependency */,
 			);
 			name = omer;
 			productName = omer;
@@ -251,6 +483,60 @@
 			productReference = D79FA95C18F1F41800C4A965 /* omerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D7AC2ED11AE2ED5A0042AD77 /* KosherCocoaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AC2EEB1AE2ED5B0042AD77 /* Build configuration list for PBXNativeTarget "KosherCocoaKit" */;
+			buildPhases = (
+				D7AC2ECD1AE2ED5A0042AD77 /* Sources */,
+				D7AC2ECE1AE2ED5A0042AD77 /* Frameworks */,
+				D7AC2ECF1AE2ED5A0042AD77 /* Headers */,
+				D7AC2ED01AE2ED5A0042AD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KosherCocoaKit;
+			productName = KosherCocoaKit;
+			productReference = D7AC2ED21AE2ED5A0042AD77 /* KosherCocoaKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7AC2EDB1AE2ED5A0042AD77 /* KosherCocoaKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7AC2EEE1AE2ED5B0042AD77 /* Build configuration list for PBXNativeTarget "KosherCocoaKitTests" */;
+			buildPhases = (
+				D7AC2ED81AE2ED5A0042AD77 /* Sources */,
+				D7AC2ED91AE2ED5A0042AD77 /* Frameworks */,
+				D7AC2EDA1AE2ED5A0042AD77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7AC2EDF1AE2ED5B0042AD77 /* PBXTargetDependency */,
+				D7AC2EE11AE2ED5B0042AD77 /* PBXTargetDependency */,
+			);
+			name = KosherCocoaKitTests;
+			productName = KosherCocoaKitTests;
+			productReference = D7AC2EDC1AE2ED5A0042AD77 /* KosherCocoaKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7B5D0961AE5BBBA00AB810B /* omer extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7B5D0A41AE5BBBA00AB810B /* Build configuration list for PBXNativeTarget "omer extension" */;
+			buildPhases = (
+				D7B5D0931AE5BBBA00AB810B /* Sources */,
+				D7B5D0941AE5BBBA00AB810B /* Frameworks */,
+				D7B5D0951AE5BBBA00AB810B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "omer extension";
+			productName = "omer extension";
+			productReference = D7B5D0971AE5BBBA00AB810B /* omer extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,6 +551,18 @@
 					};
 					D79FA95B18F1F41800C4A965 = {
 						TestTargetID = D79FA93A18F1F41800C4A965;
+					};
+					D7AC2ED11AE2ED5A0042AD77 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 8CBN6LPGUU;
+					};
+					D7AC2EDB1AE2ED5A0042AD77 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = D79FA93A18F1F41800C4A965;
+					};
+					D7B5D0961AE5BBBA00AB810B = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 8CBN6LPGUU;
 					};
 				};
 			};
@@ -283,6 +581,9 @@
 			targets = (
 				D79FA93A18F1F41800C4A965 /* omer */,
 				D79FA95B18F1F41800C4A965 /* omerTests */,
+				D7AC2ED11AE2ED5A0042AD77 /* KosherCocoaKit */,
+				D7AC2EDB1AE2ED5A0042AD77 /* KosherCocoaKitTests */,
+				D7B5D0961AE5BBBA00AB810B /* omer extension */,
 			);
 		};
 /* End PBXProject section */
@@ -295,6 +596,8 @@
 				D79FA95718F1F41800C4A965 /* Images.xcassets in Resources */,
 				D79FA94918F1F41800C4A965 /* InfoPlist.strings in Resources */,
 				D79FA95218F1F41800C4A965 /* Main.storyboard in Resources */,
+				D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */,
+				D700DC351AE0F33600763902 /* opensanshebrew-light-webfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +609,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7AC2ED01AE2ED5A0042AD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC2EDA1AE2ED5A0042AD77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B5D0951AE5BBBA00AB810B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B5D0A81AE5BBDD00AB810B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -313,12 +638,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78CC7B91916DA670050DFE1 /* ViewController.m in Sources */,
-				D79FA94F18F1F41800C4A965 /* AppDelegate.m in Sources */,
-				D720410418F68B46007A6830 /* KKHebrewCalendar.m in Sources */,
+				D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */,
+				D79FA94F18F1F41800C4A965 /* G2OAppDelegate.m in Sources */,
 				D79FA94B18F1F41800C4A965 /* main.m in Sources */,
-				D720410318F68B46007A6830 /* KKDateFormatter.m in Sources */,
-				D720410818F69CBF007A6830 /* Sfirat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +652,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7AC2ECD1AE2ED5A0042AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC2F0C1AE2ED7A0042AD77 /* NSCalendar+Components.m in Sources */,
+				D7AC2F101AE2ED7A0042AD77 /* NSCalendar+DateManipulation.m in Sources */,
+				D7AC2F1A1AE2ED7A0042AD77 /* NSDate+ConvenientDates.m in Sources */,
+				D7AC2F1C1AE2ED7A0042AD77 /* NSDate+Description.m in Sources */,
+				D7AC2F161AE2ED7A0042AD77 /* NSCalendar+Ranges.m in Sources */,
+				D7AC2F141AE2ED7A0042AD77 /* NSCalendar+Juncture.m in Sources */,
+				D7AC2F0E1AE2ED7A0042AD77 /* NSCalendar+DateComparison.m in Sources */,
+				D7AC2F091AE2ED7A0042AD77 /* KCSefiratHaomerCalculator.m in Sources */,
+				D7AC2F181AE2ED7A0042AD77 /* NSDate+Components.m in Sources */,
+				D7AC2F1E1AE2ED7A0042AD77 /* NSDateComponents+AllComponents.m in Sources */,
+				D7AC2F121AE2ED7A0042AD77 /* NSCalendar+hebrewYearTypes.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7AC2ED81AE2ED5A0042AD77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7AC2EE61AE2ED5B0042AD77 /* KosherCocoaKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7B5D0931AE5BBBA00AB810B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B5D09E1AE5BBBA00AB810B /* G2OTodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -338,9 +694,32 @@
 			target = D79FA93A18F1F41800C4A965 /* omer */;
 			targetProxy = D79FA96118F1F41800C4A965 /* PBXContainerItemProxy */;
 		};
+		D7AC2EDF1AE2ED5B0042AD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7AC2ED11AE2ED5A0042AD77 /* KosherCocoaKit */;
+			targetProxy = D7AC2EDE1AE2ED5B0042AD77 /* PBXContainerItemProxy */;
+		};
+		D7AC2EE11AE2ED5B0042AD77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D79FA93A18F1F41800C4A965 /* omer */;
+			targetProxy = D7AC2EE01AE2ED5B0042AD77 /* PBXContainerItemProxy */;
+		};
+		D7B5D0A21AE5BBBA00AB810B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7B5D0961AE5BBBA00AB810B /* omer extension */;
+			targetProxy = D7B5D0A11AE5BBBA00AB810B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		D74BFC311ADDBC2000DF10AF /* Launch.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74BFC321ADDBC2000DF10AF /* Base */,
+			);
+			name = Launch.storyboard;
+			sourceTree = "<group>";
+		};
 		D79FA94718F1F41800C4A965 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,13 +821,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/yaakov/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
 				INFOPLIST_FILE = "omer/omer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "24389EA9-40BA-416A-97E5-A0429EB168FD";
+				PROVISIONING_PROFILE = "32c4211d-a057-408f-bf12-b4031b085fc2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -457,13 +842,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/yaakov/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "omer/omer-Prefix.pch";
 				INFOPLIST_FILE = "omer/omer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "24389EA9-40BA-416A-97E5-A0429EB168FD";
+				PROVISIONING_PROFILE = "32c4211d-a057-408f-bf12-b4031b085fc2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -508,6 +899,158 @@
 			};
 			name = Release;
 		};
+		D7AC2EEC1AE2ED5B0042AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KosherCocoaKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7AC2EED1AE2ED5B0042AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = KosherCocoaKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7AC2EEF1AE2ED5B0042AD77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KosherCocoaKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omer.app/omer";
+			};
+			name = Debug;
+		};
+		D7AC2EF01AE2ED5B0042AD77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = KosherCocoaKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omer.app/omer";
+			};
+			name = Release;
+		};
+		D7B5D0A51AE5BBBA00AB810B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yaakov/Desktop,
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "omer extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7B5D0A61AE5BBBA00AB810B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yaakov/Desktop,
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "omer extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -534,6 +1077,33 @@
 			buildConfigurations = (
 				D79FA97118F1F41800C4A965 /* Debug */,
 				D79FA97218F1F41800C4A965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AC2EEB1AE2ED5B0042AD77 /* Build configuration list for PBXNativeTarget "KosherCocoaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC2EEC1AE2ED5B0042AD77 /* Debug */,
+				D7AC2EED1AE2ED5B0042AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7AC2EEE1AE2ED5B0042AD77 /* Build configuration list for PBXNativeTarget "KosherCocoaKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7AC2EEF1AE2ED5B0042AD77 /* Debug */,
+				D7AC2EF01AE2ED5B0042AD77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7B5D0A41AE5BBBA00AB810B /* Build configuration list for PBXNativeTarget "omer extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B5D0A51AE5BBBA00AB810B /* Debug */,
+				D7B5D0A61AE5BBBA00AB810B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
