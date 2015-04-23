@@ -27,15 +27,15 @@
 
 - (void)animateBracheView {
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self animateDesignedViewsLayer:nil];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.7f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self animateDesignedViewsLayer:self.brachaViewContainer];
     });
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.5f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [self animateDesignedViewsLayer:nil];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.2f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self animateDesignedViewsLayer:self.dayWeekCountLabel];
     });
 }
-- (void)animateDesignedViewsLayer:(CALayer *)viewLayer {
+- (void)animateDesignedViewsLayer:(UIView *)view {
     
     CAKeyframeAnimation *bounce = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
     CATransform3D forward = CATransform3DMakeScale(1.2, 1.2, 1);
@@ -46,14 +46,8 @@
     [bounce setValues:[NSArray arrayWithObjects:[NSValue valueWithCATransform3D:CATransform3DIdentity],[NSValue valueWithCATransform3D:forward],[NSValue valueWithCATransform3D:back],[NSValue valueWithCATransform3D:forwardAgain],[NSValue valueWithCATransform3D:backAgain], nil]];
     bounce.duration = 0.35;
     
-    [self.brachaViewContainer.layer addAnimation:bounce forKey:@"tranform"];
-    [self.brachaViewContainer.layer addAnimation:bounce forKey:@"transform"];
-    
-    [self.dayWeekCountLabel.layer addAnimation:bounce forKey:@"tranform"];
-    [self.dayWeekCountLabel.layer addAnimation:bounce forKey:@"transform"];
-    
-//    [viewLayer addAnimation:bounce forKey:@"tranform"];
-//    [viewLayer addAnimation:bounce forKey:@"transform"];
+    [view.layer addAnimation:bounce forKey:@"tranform"];
+    [view.layer addAnimation:bounce forKey:@"transform"];
 }
 
 - (void)viewDidLoad {
@@ -64,15 +58,10 @@
     
     [self setupDayWeekLabel];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(animateDesignedViewsLayer:) name:UIApplicationDidBecomeActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(animateBracheView) name:UIApplicationDidBecomeActiveNotification object:nil];
     
 }
 
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-//    [self animateDesignedViewsLayer];
-}
 #pragma mark - Helper methods
 
 - (void)setupDayWeekLabel {
