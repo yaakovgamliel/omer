@@ -76,7 +76,8 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES"
-      launchAutomaticallySubstyle = "8">
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "omer WatchKit Extension/PushNotificationPayload.apns">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.springboard"

@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D700DC351AE0F33600763902 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */; };
-		D748B0101AE921AB00DE6E66 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
-		D748B0111AE921B900DE6E66 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
-		D748B01D1AE9270F00DE6E66 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D748B01C1AE9270F00DE6E66 /* InterfaceController.m */; };
-		D748B0201AE9270F00DE6E66 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D748B01F1AE9270F00DE6E66 /* NotificationController.m */; };
-		D748B0231AE9270F00DE6E66 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D748B0221AE9270F00DE6E66 /* GlanceController.m */; };
+		D709BED51AEA1CB500E526E5 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D709BED11AEA1C6A00E526E5 /* KosherCocoaKit.framework */; };
+		D709BED61AEA1CB500E526E5 /* KosherCocoaKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D709BED11AEA1C6A00E526E5 /* KosherCocoaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D709BED81AEA1CC100E526E5 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AC2ED21AE2ED5A0042AD77 /* KosherCocoaKit.framework */; };
+		D709BEDC1AEA3BED00E526E5 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7AC2ED21AE2ED5A0042AD77 /* KosherCocoaKit.framework */; };
+		D748B01D1AE9270F00DE6E66 /* G2OInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D748B01C1AE9270F00DE6E66 /* G2OInterfaceController.m */; };
+		D748B0201AE9270F00DE6E66 /* G2ONotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D748B01F1AE9270F00DE6E66 /* G2ONotificationController.m */; };
 		D748B0251AE9270F00DE6E66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D748B0241AE9270F00DE6E66 /* Images.xcassets */; };
 		D748B0291AE9270F00DE6E66 /* omer WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = D748B0281AE9270F00DE6E66 /* omer WatchKit App.app */; };
 		D748B0311AE9270F00DE6E66 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D748B02F1AE9270F00DE6E66 /* Interface.storyboard */; };
 		D748B0331AE9270F00DE6E66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D748B0321AE9270F00DE6E66 /* Images.xcassets */; };
 		D748B0361AE9270F00DE6E66 /* omer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D748B0161AE9270F00DE6E66 /* omer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D748B03D1AE9272400DE6E66 /* KosherCocoaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */; };
 		D74BFC331ADDBC2000DF10AF /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74BFC311ADDBC2000DF10AF /* Launch.storyboard */; };
 		D78CC7B91916DA670050DFE1 /* G2OMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78CC7B71916DA670050DFE1 /* G2OMainViewController.m */; };
 		D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79FA93E18F1F41800C4A965 /* Foundation.framework */; };
@@ -64,6 +64,7 @@
 		D7B5D09E1AE5BBBA00AB810B /* G2OTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */; };
 		D7B5D0A31AE5BBBA00AB810B /* omer extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7B5D0971AE5BBBA00AB810B /* omer extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D7B5D0A81AE5BBDD00AB810B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B5D0921AE5BB5500AB810B /* MainInterface.storyboard */; };
+		D7C67EA71AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7C67EA61AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		D709BED71AEA1CB500E526E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D709BED61AEA1CB500E526E5 /* KosherCocoaKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D709BEDB1AEA1CD200E526E5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D7B5D0A71AE5BBBA00AB810B /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,16 +151,15 @@
 /* Begin PBXFileReference section */
 		D700DC341AE0F33600763902 /* opensanshebrew-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "opensanshebrew-light-webfont.ttf"; sourceTree = "<group>"; };
 		D700DC3D1AE10D8F00763902 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		D709BED11AEA1C6A00E526E5 /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KosherCocoaKit.framework; sourceTree = "<group>"; };
 		D7159C711AE84F8500C7C8FE /* KosherCocoaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KosherCocoaKit.framework; path = ../../../Desktop/KosherCocoaKit.framework; sourceTree = "<group>"; };
 		D748B0161AE9270F00DE6E66 /* omer WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "omer WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D748B0191AE9270F00DE6E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D748B01A1AE9270F00DE6E66 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D748B01B1AE9270F00DE6E66 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
-		D748B01C1AE9270F00DE6E66 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
-		D748B01E1AE9270F00DE6E66 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
-		D748B01F1AE9270F00DE6E66 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
-		D748B0211AE9270F00DE6E66 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
-		D748B0221AE9270F00DE6E66 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		D748B01B1AE9270F00DE6E66 /* G2OInterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OInterfaceController.h; sourceTree = "<group>"; };
+		D748B01C1AE9270F00DE6E66 /* G2OInterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OInterfaceController.m; sourceTree = "<group>"; };
+		D748B01E1AE9270F00DE6E66 /* G2ONotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2ONotificationController.h; sourceTree = "<group>"; };
+		D748B01F1AE9270F00DE6E66 /* G2ONotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2ONotificationController.m; sourceTree = "<group>"; };
 		D748B0241AE9270F00DE6E66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D748B0281AE9270F00DE6E66 /* omer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "omer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D748B02E1AE9270F00DE6E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -201,6 +222,7 @@
 		D7B5D09B1AE5BBBA00AB810B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B5D09C1AE5BBBA00AB810B /* G2OTodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OTodayViewController.h; sourceTree = "<group>"; };
 		D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OTodayViewController.m; sourceTree = "<group>"; };
+		D7C67EA61AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "opensanshebrew-light-webfont.ttf"; path = "../../../../Desktop/opensanshebrew-light-webfont.ttf"; sourceTree = "<group>"; };
 		DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -210,7 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D748B03D1AE9272400DE6E66 /* KosherCocoaKit.framework in Frameworks */,
+				D709BEDC1AEA3BED00E526E5 /* KosherCocoaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,8 +240,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D748B0101AE921AB00DE6E66 /* KosherCocoaKit.framework in Frameworks */,
 				D79FA94118F1F41800C4A965 /* CoreGraphics.framework in Frameworks */,
+				D709BED51AEA1CB500E526E5 /* KosherCocoaKit.framework in Frameworks */,
 				D79FA94318F1F41800C4A965 /* UIKit.framework in Frameworks */,
 				D79FA93F18F1F41800C4A965 /* Foundation.framework in Frameworks */,
 			);
@@ -254,7 +276,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D748B0111AE921B900DE6E66 /* KosherCocoaKit.framework in Frameworks */,
+				D709BED81AEA1CC100E526E5 /* KosherCocoaKit.framework in Frameworks */,
 				D7B5D0981AE5BBBA00AB810B /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +303,10 @@
 		D748B0171AE9270F00DE6E66 /* omer WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D748B01B1AE9270F00DE6E66 /* InterfaceController.h */,
-				D748B01C1AE9270F00DE6E66 /* InterfaceController.m */,
-				D748B01E1AE9270F00DE6E66 /* NotificationController.h */,
-				D748B01F1AE9270F00DE6E66 /* NotificationController.m */,
-				D748B0211AE9270F00DE6E66 /* GlanceController.h */,
-				D748B0221AE9270F00DE6E66 /* GlanceController.m */,
+				D748B01B1AE9270F00DE6E66 /* G2OInterfaceController.h */,
+				D748B01C1AE9270F00DE6E66 /* G2OInterfaceController.m */,
+				D748B01E1AE9270F00DE6E66 /* G2ONotificationController.h */,
+				D748B01F1AE9270F00DE6E66 /* G2ONotificationController.m */,
 				D748B0241AE9270F00DE6E66 /* Images.xcassets */,
 				D748B0181AE9270F00DE6E66 /* Supporting Files */,
 			);
@@ -296,6 +316,7 @@
 		D748B0181AE9270F00DE6E66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D7C67EA61AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf */,
 				D748B0191AE9270F00DE6E66 /* Info.plist */,
 				D748B01A1AE9270F00DE6E66 /* PushNotificationPayload.apns */,
 			);
@@ -350,6 +371,7 @@
 		D79FA93218F1F41800C4A965 = {
 			isa = PBXGroup;
 			children = (
+				D709BED11AEA1C6A00E526E5 /* KosherCocoaKit.framework */,
 				D79FA94418F1F41800C4A965 /* omer */,
 				D79FA96318F1F41800C4A965 /* omerTests */,
 				D7AC2ED31AE2ED5A0042AD77 /* KosherCocoaKit */,
@@ -545,6 +567,7 @@
 				D748B0121AE9270F00DE6E66 /* Sources */,
 				D748B0131AE9270F00DE6E66 /* Frameworks */,
 				D748B0141AE9270F00DE6E66 /* Resources */,
+				D709BEDB1AEA1CD200E526E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -579,6 +602,7 @@
 				D79FA93818F1F41800C4A965 /* Frameworks */,
 				D79FA93918F1F41800C4A965 /* Resources */,
 				D7B5D0A71AE5BBBA00AB810B /* Embed App Extensions */,
+				D709BED71AEA1CB500E526E5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -729,6 +753,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D748B0251AE9270F00DE6E66 /* Images.xcassets in Resources */,
+				D7C67EA71AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf in Resources */,
 				D748B0291AE9270F00DE6E66 /* omer WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -791,9 +816,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D748B0201AE9270F00DE6E66 /* NotificationController.m in Sources */,
-				D748B01D1AE9270F00DE6E66 /* InterfaceController.m in Sources */,
-				D748B0231AE9270F00DE6E66 /* GlanceController.m in Sources */,
+				D748B0201AE9270F00DE6E66 /* G2ONotificationController.m in Sources */,
+				D748B01D1AE9270F00DE6E66 /* G2OInterfaceController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -981,6 +1005,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/yaakov/Desktop,
+					"$(PROJECT_DIR)",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1007,6 +1032,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/yaakov/Desktop,
+					"$(PROJECT_DIR)",
 				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "omer WatchKit Extension/Info.plist";
@@ -1193,6 +1219,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1221,7 +1248,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
