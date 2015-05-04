@@ -21,7 +21,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>2.2</string>
+	<string>2.3</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>opensanshebrew-light-webfont.ttf</string>
