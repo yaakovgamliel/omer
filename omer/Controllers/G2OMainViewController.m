@@ -7,7 +7,6 @@
 //
 
 #import "G2OMainViewController.h"
-//#import "Calendar.h"
 #import <KosherCocoaKit/KCSefiratHaomerCalculator.h>
 
 @interface G2OMainViewController ()
@@ -53,13 +52,9 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    
-    [self updateLabels];
-    
-    [self setupDayWeekLabel];
-    
+        
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(animateBracheView) name:UIApplicationDidBecomeActiveNotification object:nil];
-    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateLabels) name:UIApplicationDidBecomeActiveNotification object:nil];
 }
 
 #pragma mark - Helper methods
@@ -76,6 +71,8 @@
 }
 
 - (void)updateLabels {
+    
+    [self setupDayWeekLabel];
     
     NSInteger dayOfSefira = [self sfiraCount];
     

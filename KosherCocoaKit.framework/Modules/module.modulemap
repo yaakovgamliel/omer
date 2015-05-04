@@ -1,0 +1,6 @@
+framework module KosherCocoaKit {
+  umbrella header "KosherCocoaKit.h"
+
+  export *
+  module * { export * }
+}
