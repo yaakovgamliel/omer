@@ -10,13 +10,13 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="G2OInterfaceController">
                     <items>
-                        <group width="1" height="70" alignment="left" id="ZCU-2t-oZs">
+                        <group width="1" height="70" alignment="center" verticalAlignment="center" id="ZCU-2t-oZs">
                             <items>
                                 <label width="136" height="62" alignment="center" verticalAlignment="center" text="Label" textAlignment="center" id="BJa-v7-u9k">
                                     <color key="textColor" red="0.93315972219999999" green="0.70249566919999995" blue="0.30641047059999998" alpha="1" colorSpace="calibratedRGB"/>
                                 </label>
                             </items>
-                            <color key="backgroundColor" red="1" green="0.97865854916860173" blue="0.99477569659795106" alpha="0.23000000000000001" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </group>
                         <group width="1" height="71" alignment="center" verticalAlignment="center" id="ObI-bK-tU5">
                             <items>
