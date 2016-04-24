@@ -64,7 +64,7 @@
 		D7B5D09E1AE5BBBA00AB810B /* G2OTodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */; };
 		D7B5D0A31AE5BBBA00AB810B /* omer extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D7B5D0971AE5BBBA00AB810B /* omer extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D7B5D0A81AE5BBDD00AB810B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B5D0921AE5BB5500AB810B /* MainInterface.storyboard */; };
-		D7C67EA71AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7C67EA61AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf */; };
+		D7F64E641CCCFB6F0064C821 /* opensanshebrew-light-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7F64E631CCCFB6F0064C821 /* opensanshebrew-light-webfont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,7 +222,7 @@
 		D7B5D09B1AE5BBBA00AB810B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7B5D09C1AE5BBBA00AB810B /* G2OTodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G2OTodayViewController.h; sourceTree = "<group>"; };
 		D7B5D09D1AE5BBBA00AB810B /* G2OTodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G2OTodayViewController.m; sourceTree = "<group>"; };
-		D7C67EA61AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "opensanshebrew-light-webfont.ttf"; path = "../../../../Desktop/opensanshebrew-light-webfont.ttf"; sourceTree = "<group>"; };
+		D7F64E631CCCFB6F0064C821 /* opensanshebrew-light-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "opensanshebrew-light-webfont.ttf"; path = "../../opensanshebrew-light-webfont.ttf"; sourceTree = "<group>"; };
 		DB5FAED8BD69DB153F2082DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FD20DCBB0996FD088A1D7324 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -316,7 +316,7 @@
 		D748B0181AE9270F00DE6E66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D7C67EA61AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf */,
+				D7F64E631CCCFB6F0064C821 /* opensanshebrew-light-webfont.ttf */,
 				D748B0191AE9270F00DE6E66 /* Info.plist */,
 				D748B01A1AE9270F00DE6E66 /* PushNotificationPayload.apns */,
 			);
@@ -754,7 +754,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D748B0251AE9270F00DE6E66 /* Images.xcassets in Resources */,
-				D7C67EA71AE9946F00053FF1 /* opensanshebrew-light-webfont.ttf in Resources */,
+				D7F64E641CCCFB6F0064C821 /* opensanshebrew-light-webfont.ttf in Resources */,
 				D748B0291AE9270F00DE6E66 /* omer WatchKit App.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1137,7 +1137,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "32c4211d-a057-408f-bf12-b4031b085fc2";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1158,7 +1158,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "32c4211d-a057-408f-bf12-b4031b085fc2";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -1268,6 +1268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1284,6 +1285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "783021a4-19a8-4324-9575-64e67526b83c";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omer.app/omer";
 			};
 			name = Debug;
@@ -1305,6 +1307,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "783021a4-19a8-4324-9575-64e67526b83c";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/omer.app/omer";
 			};
 			name = Release;
